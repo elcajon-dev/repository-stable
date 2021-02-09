@@ -9,3 +9,7 @@ addons:
     repository: elcajon/addon-fsm
     target: fsm
     image: ghcr.io/elcajon/fsm/{arch}
+  simplelogin:
+    repository: elcajon/addon-simplelogin
+    target: simplelogin
+    image: ghcr.io/elcajon/simplelogin/{arch}
