@@ -1,34 +1,35 @@
 {
-    "name": "Simplelogin App",
-    "version": "1.0.0",
-    "slug": "simplelogin",
-    "description": "Simple-Login App",
-    "url" : "https://github.com/elcajon/addon-simplelogin",
-    "startup": "application",
-    "arch": ["amd64"],
-    "map": ["ssl:rw"],
-    "hassio_api": true,
-    "hassio_role": "default",
-    "options": {
-      "WEBSERVER" : "app.mydomain.com",
-      "MAILSERVER" : "mail.mydomain.com",
-      "URL" : "https://app.mydomain.com",
-      "DISABLE_REGISTRATION" : false
-    },
-    "ports":{
-      "7777/tcp":7777,
-      "25/tcp":25
-    },
-    "ports_description":{
-      "7777/tcp":"Web Ui",
-      "25/tcp":"Postfix"
-    },
-    "schema": {
-      "WEBSERVER":"str",
-      "MAILSERVER" : "str",
-      "URL" : "str",
-      "DISABLE_REGISTRATION" : "bool"
-    },
-    "image":"ghcr.io/elcajon/simplelogin/{arch}"
-  }
-  
+  "name": "Simplelogin App",
+  "version": "1.0.1",
+  "slug": "simplelogin",
+  "description": "Simple-Login App",
+  "url": "https://github.com/elcajon/addon-simplelogin",
+  "arch": [
+    "amd64"
+  ],
+  "map": [
+    "ssl:rw"
+  ],
+  "hassio_api": true,
+  "options": {
+    "WEBSERVER": "app.mydomain.com",
+    "MAILSERVER": "mail.mydomain.com",
+    "URL": "https://app.mydomain.com",
+    "DISABLE_REGISTRATION": false
+  },
+  "ports": {
+    "7777/tcp": 7777,
+    "25/tcp": 25
+  },
+  "ports_description": {
+    "7777/tcp": "Web Ui",
+    "25/tcp": "Postfix"
+  },
+  "schema": {
+    "WEBSERVER": "str",
+    "MAILSERVER": "str",
+    "URL": "str",
+    "DISABLE_REGISTRATION": "bool"
+  },
+  "image": "ghcr.io/elcajon/simplelogin/{arch}"
+}
