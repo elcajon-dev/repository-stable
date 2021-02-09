@@ -1,3 +1,4 @@
 ## What’s changed
 
-* No changes
+- Update .hadolint.yaml @elcajon (#3)
+- Update Dockerfile @elcajon (#2)
