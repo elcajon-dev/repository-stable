@@ -1,11 +1,13 @@
 {
   "name": "Factorio Server Manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "fsm",
   "description": "Factorio Server Manager",
-  "url" : "https://github.com/elcajon/addon/fsm",
+  "url": "https://github.com/elcajon/addon-fsm",
   "init": false,
-  "arch": ["amd64"],
+  "arch": [
+    "amd64"
+  ],
   "hassio_api": true,
   "snapshot_exclude": [
     "/data/fsm/mod_packs/*",
@@ -21,5 +23,5 @@
     "34197/udp": "Factorio Server",
     "8080/tcp": "Web UI"
   },
-  "image" : "ghcr.io/elcajon/fsm/{arch}"
+  "image": "ghcr.io/elcajon/fsm/{arch}"
 }

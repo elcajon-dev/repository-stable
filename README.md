@@ -118,10 +118,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-fsm]: https://github.com/elcajon/addon-fsm/tree/v1.0.0
-[addon-doc-fsm]: https://github.com/elcajon/addon-fsm/blob/v1.0.0/README.md
+[addon-fsm]: https://github.com/elcajon/addon-fsm/tree/v1.0.1
+[addon-doc-fsm]: https://github.com/elcajon/addon-fsm/blob/v1.0.1/README.md
 [fsm-issue]: https://github.com/elcajon/addon-fsm/issues
-[fsm-version-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
+[fsm-version-shield]: https://img.shields.io/badge/version-v1.0.1-blue.svg
 [fsm-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
 [fsm-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [fsm-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
