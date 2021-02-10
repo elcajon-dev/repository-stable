@@ -1,3 +1,3 @@
 ## What’s changed
 
-- Update VSCode Factoring and Extensions to latest @elcajon (#5)
+- [bugfix] Remove DE Locale @elcajon (#6)
