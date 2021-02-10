@@ -1,3 +1,3 @@
 ## What’s changed
 
-- Update Extensions @elcajon (#4)
+- Update VSCode Factoring and Extensions to latest @elcajon (#5)
