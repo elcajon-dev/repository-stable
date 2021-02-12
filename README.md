@@ -132,10 +132,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-dind]: https://github.com/elcajon/addon-dind/tree/b13c789
-[addon-doc-dind]: https://github.com/elcajon/addon-dind/blob/b13c789/README.md
+[addon-dind]: https://github.com/elcajon/addon-dind/tree/v0.0.1
+[addon-doc-dind]: https://github.com/elcajon/addon-dind/blob/v0.0.1/README.md
 [dind-issue]: https://github.com/elcajon/addon-dind/issues
-[dind-version-shield]: https://img.shields.io/badge/version-b13c789-blue.svg
+[dind-version-shield]: https://img.shields.io/badge/version-v0.0.1-blue.svg
 [dind-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [dind-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [dind-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
