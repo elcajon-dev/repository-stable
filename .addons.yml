@@ -13,3 +13,7 @@ addons:
     repository: elcajon/addon-simplelogin
     target: simplelogin
     image: ghcr.io/elcajon/simplelogin/{arch}
+  dind:
+    repository: elcajon/addon-dind
+    target: dind
+    image: ghcr.io/elcajon/dind/{arch}
