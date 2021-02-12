@@ -33,6 +33,19 @@ https://github.com/elcajon/repository-stable
 
 ## Add-ons provided by this repository
 
+### &#10003; [Docker in Docker][addon-dind]
+
+![Latest Version][dind-version-shield]
+![Supports armhf Architecture][dind-armhf-shield]
+![Supports armv7 Architecture][dind-armv7-shield]
+![Supports aarch64 Architecture][dind-aarch64-shield]
+![Supports amd64 Architecture][dind-amd64-shield]
+![Supports i386 Architecture][dind-i386-shield]
+
+Docker in Docker Imge
+
+[:books: Docker in Docker add-on documentation][addon-doc-dind]
+
 ### &#10003; [Factorio Server Manager][addon-fsm]
 
 ![Latest Version][fsm-version-shield]
@@ -86,6 +99,7 @@ based on the following:
 
 Got questions?
 
+- [Open an issue for the add-on: Docker in Docker][dind-issue]
 - [Open an issue for the add-on: Factorio Server Manager][fsm-issue]
 - [Open an issue for the add-on: Simplelogin App][simplelogin-issue]
 - [Open an issue for the add-on: Visual Studio Code][vscode-issue]
@@ -118,6 +132,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-dind]: https://github.com/elcajon/addon-dind/tree/b13c789
+[addon-doc-dind]: https://github.com/elcajon/addon-dind/blob/b13c789/README.md
+[dind-issue]: https://github.com/elcajon/addon-dind/issues
+[dind-version-shield]: https://img.shields.io/badge/version-b13c789-blue.svg
+[dind-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[dind-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[dind-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[dind-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[dind-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-fsm]: https://github.com/elcajon/addon-fsm/tree/v1.0.1
 [addon-doc-fsm]: https://github.com/elcajon/addon-fsm/blob/v1.0.1/README.md
 [fsm-issue]: https://github.com/elcajon/addon-fsm/issues
