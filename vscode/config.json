@@ -1,9 +1,9 @@
 {
   "name": "Visual Studio Code",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "slug": "vscode",
   "description": "Fully featured VSCode experience, to edit your HA config in the browser, including auto-completion!",
-  "url": "https://github.com/elcajon/homeassistant-addons",
+  "url": "https://github.com/elcajon/addon-vscode",
   "ingress": true,
   "ingress_port": 1337,
   "docker_api": true,
