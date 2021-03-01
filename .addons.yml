@@ -5,15 +5,7 @@ addons:
     repository: elcajon/addon-vscode
     target: vscode
     image: ghcr.io/elcajon/vscode/{arch}
-  fsm:
-    repository: elcajon/addon-fsm
-    target: fsm
-    image: ghcr.io/elcajon/fsm/{arch}
   simplelogin:
     repository: elcajon/addon-simplelogin
     target: simplelogin
     image: ghcr.io/elcajon/simplelogin/{arch}
-  dind:
-    repository: elcajon/addon-dind
-    target: dind
-    image: ghcr.io/elcajon/dind/{arch}
