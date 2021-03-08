@@ -33,32 +33,6 @@ https://github.com/elcajon/repository-stable
 
 ## Add-ons provided by this repository
 
-### &#10003; [Docker in Docker][addon-dind]
-
-![Latest Version][dind-version-shield]
-![Supports armhf Architecture][dind-armhf-shield]
-![Supports armv7 Architecture][dind-armv7-shield]
-![Supports aarch64 Architecture][dind-aarch64-shield]
-![Supports amd64 Architecture][dind-amd64-shield]
-![Supports i386 Architecture][dind-i386-shield]
-
-Docker in Docker Imge
-
-[:books: Docker in Docker add-on documentation][addon-doc-dind]
-
-### &#10003; [Factorio Server Manager][addon-fsm]
-
-![Latest Version][fsm-version-shield]
-![Supports armhf Architecture][fsm-armhf-shield]
-![Supports armv7 Architecture][fsm-armv7-shield]
-![Supports aarch64 Architecture][fsm-aarch64-shield]
-![Supports amd64 Architecture][fsm-amd64-shield]
-![Supports i386 Architecture][fsm-i386-shield]
-
-Factorio Server Manager
-
-[:books: Factorio Server Manager add-on documentation][addon-doc-fsm]
-
 ### &#10003; [Simplelogin App][addon-simplelogin]
 
 ![Latest Version][simplelogin-version-shield]
@@ -99,8 +73,6 @@ based on the following:
 
 Got questions?
 
-- [Open an issue for the add-on: Docker in Docker][dind-issue]
-- [Open an issue for the add-on: Factorio Server Manager][fsm-issue]
 - [Open an issue for the add-on: Simplelogin App][simplelogin-issue]
 - [Open an issue for the add-on: Visual Studio Code][vscode-issue]
 
@@ -132,24 +104,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-dind]: https://github.com/elcajon/addon-dind/tree/v1.0.0
-[addon-doc-dind]: https://github.com/elcajon/addon-dind/blob/v1.0.0/README.md
-[dind-issue]: https://github.com/elcajon/addon-dind/issues
-[dind-version-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
-[dind-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[dind-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[dind-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[dind-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[dind-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-fsm]: https://github.com/elcajon/addon-fsm/tree/v1.0.3
-[addon-doc-fsm]: https://github.com/elcajon/addon-fsm/blob/v1.0.3/README.md
-[fsm-issue]: https://github.com/elcajon/addon-fsm/issues
-[fsm-version-shield]: https://img.shields.io/badge/version-v1.0.3-blue.svg
-[fsm-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
-[fsm-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[fsm-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[fsm-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[fsm-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-simplelogin]: https://github.com/elcajon/addon-simplelogin/tree/v1.0.2
 [addon-doc-simplelogin]: https://github.com/elcajon/addon-simplelogin/blob/v1.0.2/README.md
 [simplelogin-issue]: https://github.com/elcajon/addon-simplelogin/issues
