@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## 🐛 Bug fixes
 
-- Update Simplelogin to 3.3.0 @elcajon (#5)
+- Update Entrypoint for server @elcajon (#6)
