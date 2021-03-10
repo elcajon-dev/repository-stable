@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## 🚨 Breaking changes
 
-- Update Entrypoint for server @elcajon (#6)
+- Downgrade SimpleLogin @elcajon (#7)
