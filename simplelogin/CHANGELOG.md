@@ -1,6 +1,5 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🚀 Enhancements
 
-- Bump actions/stale from v3.0.16 to v3.0.17 @dependabot (#3)
-- Bump actions/stale from v3.0.17 to v3.0.18 @dependabot (#4)
+- Update Simplelogin to 3.3.0 @elcajon (#5)
