@@ -33,6 +33,19 @@ https://github.com/elcajon/repository-stable
 
 ## Add-ons provided by this repository
 
+### &#10003; [AdGuard Home][addon-adguard]
+
+![Latest Version][adguard-version-shield]
+![Supports armhf Architecture][adguard-armhf-shield]
+![Supports armv7 Architecture][adguard-armv7-shield]
+![Supports aarch64 Architecture][adguard-aarch64-shield]
+![Supports amd64 Architecture][adguard-amd64-shield]
+![Supports i386 Architecture][adguard-i386-shield]
+
+Network-wide ads & trackers blocking DNS server
+
+[:books: AdGuard Home add-on documentation][addon-doc-adguard]
+
 ### &#10003; [Simplelogin App][addon-simplelogin]
 
 ![Latest Version][simplelogin-version-shield]
@@ -73,6 +86,7 @@ based on the following:
 
 Got questions?
 
+- [Open an issue for the add-on: AdGuard Home][adguard-issue]
 - [Open an issue for the add-on: Simplelogin App][simplelogin-issue]
 - [Open an issue for the add-on: Visual Studio Code][vscode-issue]
 
@@ -104,6 +118,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-adguard]: https://github.com/elcajon/addon-adguard-home/tree/2f83062
+[addon-doc-adguard]: https://github.com/elcajon/addon-adguard-home/blob/2f83062/README.md
+[adguard-issue]: https://github.com/elcajon/addon-adguard-home/issues
+[adguard-version-shield]: https://img.shields.io/badge/version-2f83062-blue.svg
+[adguard-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[adguard-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[adguard-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[adguard-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[adguard-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-simplelogin]: https://github.com/elcajon/addon-simplelogin/tree/v2.0.0
 [addon-doc-simplelogin]: https://github.com/elcajon/addon-simplelogin/blob/v2.0.0/README.md
 [simplelogin-issue]: https://github.com/elcajon/addon-simplelogin/issues
