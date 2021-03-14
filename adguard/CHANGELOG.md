@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 🚨 Breaking changes
+## 📚 Documentation
 
-- Add Adguard with multiple interfaces @elcajon (#1)
+- Update Documentation @elcajon (#2)
