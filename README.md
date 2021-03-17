@@ -127,10 +127,10 @@ SOFTWARE.
 [adguard-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [adguard-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [adguard-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-simplelogin]: https://github.com/elcajon/addon-simplelogin/tree/v2.0.0
-[addon-doc-simplelogin]: https://github.com/elcajon/addon-simplelogin/blob/v2.0.0/README.md
+[addon-simplelogin]: https://github.com/elcajon/addon-simplelogin/tree/v2.0.1
+[addon-doc-simplelogin]: https://github.com/elcajon/addon-simplelogin/blob/v2.0.1/README.md
 [simplelogin-issue]: https://github.com/elcajon/addon-simplelogin/issues
-[simplelogin-version-shield]: https://img.shields.io/badge/version-v2.0.0-blue.svg
+[simplelogin-version-shield]: https://img.shields.io/badge/version-v2.0.1-blue.svg
 [simplelogin-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
 [simplelogin-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [simplelogin-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
