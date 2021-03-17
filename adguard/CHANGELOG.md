@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 📚 Documentation
+## ⬆️ Dependency updates
 
-- Update Documentation @elcajon (#2)
+- Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#3)
