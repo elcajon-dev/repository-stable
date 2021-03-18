@@ -1,5 +1,5 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🚨 Breaking changes
 
-- Bump release-drafter/release-drafter from v5.14.0 to v5.15.0 @dependabot (#8)
+- Upgrade Simplelogin to 3.3.0 @elcajon (#9)
