@@ -9,7 +9,3 @@ addons:
     repository: elcajon/addon-simplelogin
     target: simplelogin
     image: ghcr.io/elcajon/simplelogin/{arch}
-  adguard:
-    repository: elcajon/addon-adguard-home
-    target: adguard
-    image: ghcr.io/elcajon/adguard/{arch}
