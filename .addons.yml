@@ -5,7 +5,3 @@ addons:
     repository: elcajon/addon-vscode
     target: vscode
     image: ghcr.io/elcajon/vscode/{arch}
-  simplelogin:
-    repository: elcajon/addon-simplelogin
-    target: simplelogin
-    image: ghcr.io/elcajon/simplelogin/{arch}
