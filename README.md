@@ -33,32 +33,6 @@ https://github.com/elcajon/repository-stable
 
 ## Add-ons provided by this repository
 
-### &#10003; [AdGuard Home][addon-adguard]
-
-![Latest Version][adguard-version-shield]
-![Supports armhf Architecture][adguard-armhf-shield]
-![Supports armv7 Architecture][adguard-armv7-shield]
-![Supports aarch64 Architecture][adguard-aarch64-shield]
-![Supports amd64 Architecture][adguard-amd64-shield]
-![Supports i386 Architecture][adguard-i386-shield]
-
-Network-wide ads & trackers blocking DNS server
-
-[:books: AdGuard Home add-on documentation][addon-doc-adguard]
-
-### &#10003; [Simplelogin App][addon-simplelogin]
-
-![Latest Version][simplelogin-version-shield]
-![Supports armhf Architecture][simplelogin-armhf-shield]
-![Supports armv7 Architecture][simplelogin-armv7-shield]
-![Supports aarch64 Architecture][simplelogin-aarch64-shield]
-![Supports amd64 Architecture][simplelogin-amd64-shield]
-![Supports i386 Architecture][simplelogin-i386-shield]
-
-Simple-Login App
-
-[:books: Simplelogin App add-on documentation][addon-doc-simplelogin]
-
 ### &#10003; [Visual Studio Code][addon-vscode]
 
 ![Latest Version][vscode-version-shield]
@@ -86,8 +60,6 @@ based on the following:
 
 Got questions?
 
-- [Open an issue for the add-on: AdGuard Home][adguard-issue]
-- [Open an issue for the add-on: Simplelogin App][simplelogin-issue]
 - [Open an issue for the add-on: Visual Studio Code][vscode-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
@@ -118,24 +90,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-adguard]: https://github.com/elcajon/addon-adguard-home/tree/v1.0.2
-[addon-doc-adguard]: https://github.com/elcajon/addon-adguard-home/blob/v1.0.2/README.md
-[adguard-issue]: https://github.com/elcajon/addon-adguard-home/issues
-[adguard-version-shield]: https://img.shields.io/badge/version-v1.0.2-blue.svg
-[adguard-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[adguard-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[adguard-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[adguard-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[adguard-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-simplelogin]: https://github.com/elcajon/addon-simplelogin/tree/v3.0.0
-[addon-doc-simplelogin]: https://github.com/elcajon/addon-simplelogin/blob/v3.0.0/README.md
-[simplelogin-issue]: https://github.com/elcajon/addon-simplelogin/issues
-[simplelogin-version-shield]: https://img.shields.io/badge/version-v3.0.0-blue.svg
-[simplelogin-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
-[simplelogin-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[simplelogin-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[simplelogin-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[simplelogin-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-vscode]: https://github.com/elcajon/addon-vscode/tree/v1.1.0
 [addon-doc-vscode]: https://github.com/elcajon/addon-vscode/blob/v1.1.0/README.md
 [vscode-issue]: https://github.com/elcajon/addon-vscode/issues
