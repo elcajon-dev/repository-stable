@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Visual Studio Code - armv7/aarch64 Version
+# Home Assistant Add-on: Visual Studio Code
 
 This add-on runs Visual Studio Code, allowing you to edit your Home Assistant
 configuration directly from your web browser and can be embedded straight
@@ -28,15 +28,24 @@ comparison to installing any other Home Assistant add-on.
 Example add-on configuration:
 
 ```yaml
-packages:
-  - mariadb-client
-init_commands:
-  - ls -la
+vscode:
+  packages:
+    - mariadb-client
+  init_commands:
+    - ls -la
+ssh:
+  authorized_keys:
+    - ssh-rsa AAAAB3NzaC1yc2EAAAAD....
+  compatibility_mode: false
 ```
 
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
 
-### Option: `packages`
+### Option group `vscode`
+
+---
+
+#### Option: `vscode`: `packages`
 
 Allows you to specify additional [Ubuntu packages][ubuntu-packages] to be
 installed in your shell environment (e.g., Python, PHP, Go).
@@ -44,11 +53,30 @@ installed in your shell environment (e.g., Python, PHP, Go).
 **Note**: _Adding many packages will result in a longer start-up
 time for the add-on._
 
-### Option: `init_commands`
+#### Option: `vscode`: `init_commands`
 
 Customize your VSCode environment even more with the `init_commands` option.
 Add one or more shell commands to the list, and they will be executed every
 single time this add-on starts.
+
+### Option group `ssh`
+
+---
+
+#### Option: `ssh`: `authorized_keys`
+
+Add one or more public keys to your SSH server to use with authentication.
+This is the recommended over setting a password.
+Attention: SSH service will only be enabled when assigning external port to 22/tcp.
+
+#### Option `ssh`: `compatibility_mode`
+
+This SSH add-on focusses on security and has therefore only enabled known
+secure encryption methods. However, some older clients do not support these.
+Setting this option to `true` will enable the original default set of methods,
+allowing those clients to connect.
+
+**Note**: _Enabling this option, lowers the security of your SSH server!_
 
 ## Resetting your VSCode settings to the add-on defaults
 
