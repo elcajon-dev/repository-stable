@@ -1,16 +1,17 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## ✨ New features
 
-- Update Dockerfile @elcajon (#29)
-- Fix Spellcheck Issue SC1091 @elcajon (#32)
+- Update VSCode to 3.10.0 @elcajon (#43)
 
 ## 🚀 Enhancements
 
-- Assign ESPHome files to ESPHome extension @elcajon (#33)
+- Upgrade Base Image to 4.2.0 @elcajon (#42)
+- Update VSCode Extensions @elcajon (#41)
 
 ## ⬆️ Dependency updates
 
-- Bump brpaz/hadolint-action from v1.3.1 to v1.4.0 @dependabot (#28)
-- Bump docker/setup-buildx-action from v1.1.2 to v1.2.0 @dependabot (#31)
-- Bump docker/setup-qemu-action from v1.0.2 to v1.1.0 @dependabot (#30)
+- Bump docker/setup-buildx-action from 1.2.0 to 1.3.0 @dependabot (#38)
+- Bump docker/login-action from 1.8.0 to 1.9.0 @dependabot (#39)
+- Bump frenck/action-addon-linter from 2 to 2.1 @dependabot (#40)
+- Bump brpaz/hadolint-action from 1.4.0 to 1.5.0 @dependabot (#37)
