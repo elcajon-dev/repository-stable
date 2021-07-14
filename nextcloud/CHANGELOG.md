@@ -1,9 +1,5 @@
 ## What’s changed
 
-## 🚨 Breaking changes
+## 🐛 Bug fixes
 
-- Update Nextcloud to stable @elcajon (#12)
-
-## 📚 Documentation
-
-- Add Logo @elcajon (#13)
+- Bugfix trusted Domains @elcajon (#14)
