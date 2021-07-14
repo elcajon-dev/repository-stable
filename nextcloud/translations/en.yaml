@@ -3,3 +3,6 @@ configuration:
   reset_database:
     name: Reset database
     description: Nextcloud database will be dropped and created again.
+  trusted_domains:
+    name: List of trusted domains
+    description: List of trusted domains and IPs with access to Nextcloud instance

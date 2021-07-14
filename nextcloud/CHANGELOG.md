@@ -1,3 +1,9 @@
 ## What’s changed
 
-* No changes
+## 🚨 Breaking changes
+
+- Update Nextcloud to stable @elcajon (#12)
+
+## 📚 Documentation
+
+- Add Logo @elcajon (#13)

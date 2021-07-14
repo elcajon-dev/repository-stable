@@ -1,6 +1,6 @@
 {
   "name": "Nextcloud",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "slug": "nextcloud",
   "description": "Nextcloud Home Assistant Add-on",
   "url": "https://github.com/elcajon/addon-nextcloud",
@@ -10,10 +10,14 @@
     "amd64"
   ],
   "options": {
-    "reset_database": ""
+    "reset_database": "",
+    "trusted_domains": []
   },
   "schema": {
-    "reset_database": "bool"
+    "reset_database": "bool",
+    "trusted_domains": [
+      "str"
+    ]
   },
   "map": [
     "config:rw",
