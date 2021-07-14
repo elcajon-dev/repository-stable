@@ -1,0 +1,5 @@
+---
+configuration:
+  reset_database:
+    name: Reset database
+    description: Nextcloud database will be dropped and created again.
