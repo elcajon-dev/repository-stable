@@ -1,6 +1,6 @@
 {
   "name": "Nextcloud",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "slug": "nextcloud",
   "description": "Nextcloud Home Assistant Add-on",
   "url": "https://github.com/elcajon/addon-nextcloud",
@@ -10,7 +10,7 @@
     "amd64"
   ],
   "options": {
-    "reset_database": "",
+    "reset_database": false,
     "trusted_domains": []
   },
   "schema": {
@@ -31,7 +31,7 @@
     "mysql:need"
   ],
   "ports": {
-    "8080/tcp": 8080
+    "8080/tcp": null
   },
   "ports_description": {
     "8080/tcp": "Nextcloud Web Port"
