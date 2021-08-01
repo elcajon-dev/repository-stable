@@ -1,6 +1,6 @@
 {
   "name": "Nextcloud",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "slug": "nextcloud",
   "description": "Nextcloud Home Assistant Add-on",
   "url": "https://github.com/elcajon/addon-nextcloud",
@@ -36,5 +36,10 @@
   "ports_description": {
     "8080/tcp": "Nextcloud Web Port"
   },
+  "snapshot_pre": "php /app/occ maintenance:mode --on",
+  "snapshot_post": "php /app/occ maintenance:mode --off",
+  "snapshot_exclude": [
+    "*/data"
+  ],
   "image": "ghcr.io/elcajon/nextcloud/{arch}"
 }
