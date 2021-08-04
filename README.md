@@ -118,10 +118,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-duplicati]: https://github.com/elcajon/addon-duplicati/tree/f2d7ead
-[addon-doc-duplicati]: https://github.com/elcajon/addon-duplicati/blob/f2d7ead/README.md
+[addon-duplicati]: https://github.com/elcajon/addon-duplicati/tree/v1.0.0
+[addon-doc-duplicati]: https://github.com/elcajon/addon-duplicati/blob/v1.0.0/README.md
 [duplicati-issue]: https://github.com/elcajon/addon-duplicati/issues
-[duplicati-version-shield]: https://img.shields.io/badge/version-f2d7ead-blue.svg
+[duplicati-version-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
 [duplicati-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [duplicati-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [duplicati-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
