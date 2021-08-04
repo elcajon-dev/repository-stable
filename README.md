@@ -33,6 +33,19 @@ https://github.com/elcajon/repository-stable
 
 ## Add-ons provided by this repository
 
+### &#10003; [Duplicati][addon-duplicati]
+
+![Latest Version][duplicati-version-shield]
+![Supports armhf Architecture][duplicati-armhf-shield]
+![Supports armv7 Architecture][duplicati-armv7-shield]
+![Supports aarch64 Architecture][duplicati-aarch64-shield]
+![Supports amd64 Architecture][duplicati-amd64-shield]
+![Supports i386 Architecture][duplicati-i386-shield]
+
+Duplicati Home Assistant Add-on
+
+[:books: Duplicati add-on documentation][addon-doc-duplicati]
+
 ### &#10003; [Nextcloud][addon-nextcloud]
 
 ![Latest Version][nextcloud-version-shield]
@@ -73,6 +86,7 @@ based on the following:
 
 Got questions?
 
+- [Open an issue for the add-on: Duplicati][duplicati-issue]
 - [Open an issue for the add-on: Nextcloud][nextcloud-issue]
 - [Open an issue for the add-on: Visual Studio Code][vscode-issue]
 
@@ -104,6 +118,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-duplicati]: https://github.com/elcajon/addon-duplicati/tree/f2d7ead
+[addon-doc-duplicati]: https://github.com/elcajon/addon-duplicati/blob/f2d7ead/README.md
+[duplicati-issue]: https://github.com/elcajon/addon-duplicati/issues
+[duplicati-version-shield]: https://img.shields.io/badge/version-f2d7ead-blue.svg
+[duplicati-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[duplicati-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[duplicati-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[duplicati-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[duplicati-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-nextcloud]: https://github.com/elcajon/addon-nextcloud/tree/v2.0.0
 [addon-doc-nextcloud]: https://github.com/elcajon/addon-nextcloud/blob/v2.0.0/README.md
 [nextcloud-issue]: https://github.com/elcajon/addon-nextcloud/issues
