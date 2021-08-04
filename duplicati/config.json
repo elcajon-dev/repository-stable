@@ -1,6 +1,6 @@
 {
   "name": "Duplicati",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "duplicati",
   "description": "Duplicati Home Assistant Add-on",
   "url": "https://github.com/elcajon/addon-duplicati",
@@ -9,16 +9,6 @@
     "aarch64",
     "amd64"
   ],
-  "options": {
-    "reset_database": false,
-    "trusted_domains": []
-  },
-  "schema": {
-    "reset_database": "bool",
-    "trusted_domains": [
-      "str"
-    ]
-  },
   "map": [
     "config:rw",
     "ssl:rw",
@@ -31,7 +21,9 @@
     "8200/tcp": null
   },
   "ports_description": {
-    "8200/tcp": "Duplicati web interface"
+    "8200/tcp": "Duplicati web interface (not required, ingress)"
   },
+  "ingress": true,
+  "ingress_port": 8200,
   "image": "ghcr.io/elcajon/duplicati/{arch}"
 }

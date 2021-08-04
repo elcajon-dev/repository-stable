@@ -1,14 +1,10 @@
 ## What’s changed
 
-## 🚨 Breaking changes
+## 🚀 Enhancements
 
-- First release @elcajon (#3)
-
-## 🐛 Bug fixes
-
-- Update Files for initial add-on config @elcajon (#1)
-- Update Documentation @elcajon (#2)
+- Ingress @elcajon (#4)
+- Update Ingress @elcajon (#5)
 
 ## 📚 Documentation
 
-- Update Documentation @elcajon (#2)
+- Update Ingress @elcajon (#5)
