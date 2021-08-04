@@ -1,0 +1,36 @@
+{
+  "name": "Duplicati",
+  "version": "f2d7ead",
+  "slug": "duplicati",
+  "description": "Duplicati Home Assistant Add-on",
+  "url": "https://github.com/elcajon/addon-duplicati",
+  "init": false,
+  "arch": ["aarch64", "amd64"],
+  "options": {
+    "reset_database": false,
+    "trusted_domains": []
+  },
+  "schema": {
+    "reset_database": "bool",
+    "trusted_domains": ["str"]
+  },
+  "map": [
+    "config:rw",
+    "ssl:rw",
+    "addons:rw",
+    "share:rw",
+    "backup:rw",
+    "media:rw"
+  ],
+  "services": ["mysql:need"],
+  "ports": {
+    "8080/tcp": null
+  },
+  "ports_description": {
+    "8080/tcp": "Nextcloud Web Port"
+  },
+  "snapshot_pre": "php /app/occ maintenance:mode --on",
+  "snapshot_post": "php /app/occ maintenance:mode --off",
+  "snapshot_exclude": ["*/data"],
+  "image": "ghcr.io/elcajon/duplicati/{arch}"
+}
