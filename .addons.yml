@@ -9,3 +9,7 @@ addons:
     repository: elcajon/addon-nextcloud
     target: nextcloud
     image: ghcr.io/elcajon/nextcloud/{arch}
+  duplicati:
+    repository: elcajon/addon-duplicati
+    target: duplicati
+    image: ghcr.io/elcajon/duplicati/{arch}
