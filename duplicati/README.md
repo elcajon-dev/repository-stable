@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Nextcloud
+# Home Assistant Add-on: Duplicati
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
@@ -14,11 +14,11 @@
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
-Nextcloud add-on for Home Assistant.
+Duplicati add-on for Home Assistant.
 
 ## About
 
-This is an nextcloud add-on for Home Assistant.
+This is an duplicati add-on for Home Assistant.
 
 [:books: Read the full add-on documentation][docs]
 
@@ -48,17 +48,17 @@ SOFTWARE.
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[commits-shield]: https://img.shields.io/github/commit-activity/y/elcajon/addon-nextcloud.svg
-[commits]: https://github.com/elcajon/addon-nextcloud/commits/main
-[contributors]: https://github.com/elcajon/addon-nextcloud/graphs/contributors
-[docs]: https://github.com/elcajon/addon-nextcloud/blob/main/example/DOCS.md
-[github-actions-shield]: https://github.com/elcajon/addon-nextcloud/workflows/CI/badge.svg
-[github-actions]: https://github.com/elcajon/addon-nextcloud/actions
+[commits-shield]: https://img.shields.io/github/commit-activity/y/elcajon/addon-duplicati.svg
+[commits]: https://github.com/elcajon/addon-duplicati/commits/main
+[contributors]: https://github.com/elcajon/addon-duplicati/graphs/contributors
+[docs]: https://github.com/elcajon/addon-duplicati/blob/main/example/DOCS.md
+[github-actions-shield]: https://github.com/elcajon/addon-duplicati/workflows/CI/badge.svg
+[github-actions]: https://github.com/elcajon/addon-duplicati/actions
 [i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[issue]: https://github.com/elcajon/addon-nextcloud/issues
-[license-shield]: https://img.shields.io/github/license/elcajon/addon-nextcloud.svg
+[issue]: https://github.com/elcajon/addon-duplicati/issues
+[license-shield]: https://img.shields.io/github/license/elcajon/addon-duplicati.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[releases-shield]: https://img.shields.io/github/release/elcajon/addon-nextcloud.svg
-[releases]: https://github.com/elcajon/addon-nextcloud/releases
+[releases-shield]: https://img.shields.io/github/release/elcajon/addon-duplicati.svg
+[releases]: https://github.com/elcajon/addon-duplicati/releases
 [repository]: https://github.com/elcajon/repository-stable

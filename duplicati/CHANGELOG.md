@@ -2,9 +2,9 @@
 
 ## 🚀 Enhancements
 
-- Ingress @elcajon (#4)
-- Update Ingress @elcajon (#5)
+- Update panel icon @elcajon (#6)
 
 ## 📚 Documentation
 
-- Update Ingress @elcajon (#5)
+- Update Doc @elcajon (#7)
+- Update Doc @elcajon (#8)
