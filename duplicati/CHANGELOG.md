@@ -1,10 +1,5 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## ⬆️ Dependency updates
 
-- Update panel icon @elcajon (#6)
-
-## 📚 Documentation
-
-- Update Doc @elcajon (#7)
-- Update Doc @elcajon (#8)
+- Upgrade Duplicate release @elcajon (#9)
