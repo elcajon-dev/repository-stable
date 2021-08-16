@@ -1,11 +1,5 @@
 ## What’s changed
 
-## 🚨 Breaking changes
+## ⬆️ Dependency updates
 
-- Change default directory of Nextcloud @elcajon (#23  )
-
-
-## 🚀 Enhancements
-
-- Add Postfix Server @elcajon (#21)
-- Exclude Nextcloud data from snapshots @elcajon (#22)
+- Update Base image @elcajon (#24)
