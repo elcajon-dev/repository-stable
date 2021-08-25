@@ -1,6 +1,6 @@
 {
   "name": "Duplicati",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "slug": "duplicati",
   "description": "Duplicati Home Assistant Add-on",
   "url": "https://github.com/elcajon/addon-duplicati",
