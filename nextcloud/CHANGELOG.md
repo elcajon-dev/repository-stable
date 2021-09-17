@@ -1,10 +1,7 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- Update snapshot -> backup @elcajon (#27)
-
 ## ⬆️ Dependency updates
 
-- Bump dessant/lock-threads from 2.1.1 to 2.1.2 @dependabot (#25)
-- Bump docker/build-push-action from 2.6.1 to 2.7.0 @dependabot (#26)
+- Bump creyD/prettier_action from 3.3 to 4.0 @dependabot (#30)
+- Bump docker/setup-buildx-action from 1.5.1 to 1.6.0 @dependabot (#29)
+- Bump frenck/action-addon-linter from 2.2 to 2.3 @dependabot (#28)
