@@ -1,5 +1,5 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🚨 Breaking changes
 
-- Update base image to latest bionic @elcajon (#16 )
+- Update Duplicate version v2.0.6.3-2.0.6.3_beta_2021-06-17 @elcajon (#17)
