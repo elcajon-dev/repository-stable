@@ -1,6 +1,6 @@
 {
   "name": "Nextcloud",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "slug": "nextcloud",
   "description": "Nextcloud Home Assistant Add-on",
   "url": "https://github.com/elcajon/addon-nextcloud",

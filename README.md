@@ -127,10 +127,10 @@ SOFTWARE.
 [duplicati-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [duplicati-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [duplicati-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-nextcloud]: https://github.com/elcajon/addon-nextcloud/tree/v2.0.3
-[addon-doc-nextcloud]: https://github.com/elcajon/addon-nextcloud/blob/v2.0.3/README.md
+[addon-nextcloud]: https://github.com/elcajon/addon-nextcloud/tree/v2.0.4
+[addon-doc-nextcloud]: https://github.com/elcajon/addon-nextcloud/blob/v2.0.4/README.md
 [nextcloud-issue]: https://github.com/elcajon/addon-nextcloud/issues
-[nextcloud-version-shield]: https://img.shields.io/badge/version-v2.0.3-blue.svg
+[nextcloud-version-shield]: https://img.shields.io/badge/version-v2.0.4-blue.svg
 [nextcloud-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [nextcloud-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [nextcloud-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg

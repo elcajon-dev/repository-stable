@@ -1,0 +1,8 @@
+---
+configuration:
+  reset_database:
+    name: Datenbank zurücksetzen
+    description: Nextcloud Datenbank wird gelöscht und anschließend erneut erzeugt (Drop & Create)
+  trusted_domains:
+    name: Liste vertrauenswürdige Domains
+    description: Liste der vertrauenswürdigen Domains und IPs für den Zugriff auf Nextcloud

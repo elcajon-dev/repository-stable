@@ -1,7 +1,14 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- Update Nextcloud to 22.2.2 @elcajon (#38)
+
 ## ⬆️ Dependency updates
 
-- Bump creyD/prettier_action from 3.3 to 4.0 @dependabot (#30)
-- Bump docker/setup-buildx-action from 1.5.1 to 1.6.0 @dependabot (#29)
-- Bump frenck/action-addon-linter from 2.2 to 2.3 @dependabot (#28)
+- Bump dessant/lock-threads from 2.1.2 to 3 @dependabot (#32)
+- Bump frenck/action-addon-linter from 2.3 to 2.4.1 @dependabot (#33)
+- Bump actions/checkout from 2.3.4 to 2.3.5 @dependabot (#34)
+- Bump frenck/action-addon-linter from 2.4.1 to 2.5 @dependabot (#35)
+- Bump frenck/action-addon-information from 1.2 to 1.3 @dependabot (#36)
+- Bump actions/checkout from 2.3.5 to 2.4.0 @dependabot (#37)
