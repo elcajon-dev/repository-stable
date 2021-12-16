@@ -1,14 +1,7 @@
 ## What’s changed
 
-## 🚨 Breaking changes
-
-- Update base image to 5.0.0 @elcajon (#82)
-
 ## ⬆️ Dependency updates
 
-- Bump creyD/prettier_action from 3.3 to 4.0 @dependabot (#78)
-- Bump docker/setup-buildx-action from 1.5.1 to 1.6.0 @dependabot (#77)
-- Bump frenck/action-addon-linter from 2.2 to 2.3 @dependabot (#76)
-- Update requirements yamllint @elcajon (#80)
-- Update vscode extensions @elcajon (#81)
-- Update code-server and HA cli @elcajon (#79)
+- Bump actions/cache from 2.1.6 to 2.1.7 @dependabot (#92)
+- Bump creyD/prettier_action from 4.0 to 4.1.1 @dependabot (#94)
+- Update vscode.extensions @elcajon (#95)
