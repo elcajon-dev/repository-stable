@@ -59,7 +59,7 @@ Nextcloud Home Assistant Add-on
 
 [:books: Nextcloud add-on documentation][addon-doc-nextcloud]
 
-### &#10003; [Visual Studio Code][addon-vscode]
+### &#10003; [Studio Code Server][addon-vscode]
 
 ![Latest Version][vscode-version-shield]
 ![Supports armhf Architecture][vscode-armhf-shield]
@@ -70,7 +70,7 @@ Nextcloud Home Assistant Add-on
 
 Fully featured VSCode experience, to edit your HA config in the browser, including auto-completion!
 
-[:books: Visual Studio Code add-on documentation][addon-doc-vscode]
+[:books: Studio Code Server add-on documentation][addon-doc-vscode]
 
 ## Releases
 
@@ -88,7 +88,7 @@ Got questions?
 
 - [Open an issue for the add-on: Duplicati][duplicati-issue]
 - [Open an issue for the add-on: Nextcloud][nextcloud-issue]
-- [Open an issue for the add-on: Visual Studio Code][vscode-issue]
+- [Open an issue for the add-on: Studio Code Server][vscode-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
