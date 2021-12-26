@@ -1,7 +1,9 @@
 ## What’s changed
 
+## 🚀 Enhancements
+
+- Rename Add-On @elcajon (#97)
+
 ## ⬆️ Dependency updates
 
-- Bump actions/cache from 2.1.6 to 2.1.7 @dependabot (#92)
-- Bump creyD/prettier_action from 4.0 to 4.1.1 @dependabot (#94)
-- Update vscode.extensions @elcajon (#95)
+- Bump docker/login-action from 1.10.0 to 1.12.0 @dependabot (#96)

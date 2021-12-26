@@ -1,6 +1,6 @@
-# Home Assistant Add-on: Visual Studio Code
+# Home Assistant Add-on: Studio Code Server
 
-This add-on runs Visual Studio Code, allowing you to edit your Home Assistant
+This add-on runs Studio Code Server, allowing you to edit your Home Assistant
 configuration directly from your web browser and can be embedded straight
 into the Home Assistant frontend UI.
 
