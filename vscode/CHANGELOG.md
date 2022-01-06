@@ -1,5 +1,5 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 🐛 Bug fixes
 
-- Update Code Server to v.4.0.1 @elcajon (#98)
+- Downgrade @elcajon (#99)
