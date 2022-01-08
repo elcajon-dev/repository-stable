@@ -2,4 +2,4 @@
 
 ## 🐛 Bug fixes
 
-- Update run @elcajon (#108)
+- Bugfix Cloudflared @elcajon (#109)
