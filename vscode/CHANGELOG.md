@@ -1,9 +1,5 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## 🐛 Bug fixes
 
-- Add Cloudflared @elcajon (#106)
-
-## ⬆️ Dependency updates
-
-- Add Cloudflared service files @elcajon (#107)
+- Update run @elcajon (#108)
