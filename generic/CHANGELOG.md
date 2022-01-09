@@ -1,5 +1,7 @@
 ## What’s changed
 
-## ⬆️ Dependency updates
+## 📚 Documentation
 
-- Add wget & curl to base image @elcajon (#2)
+- Update Icon @elcajon (#3)
+- Add cont-init.d template @elcajon (#4)
+- Update start up script with template @elcajon (#5)
