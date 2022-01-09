@@ -33,6 +33,19 @@ https://github.com/elcajon/repository-stable
 
 ## Add-ons provided by this repository
 
+### &#10003; [Generic][addon-generic]
+
+![Latest Version][generic-version-shield]
+![Supports armhf Architecture][generic-armhf-shield]
+![Supports armv7 Architecture][generic-armv7-shield]
+![Supports aarch64 Architecture][generic-aarch64-shield]
+![Supports amd64 Architecture][generic-amd64-shield]
+![Supports i386 Architecture][generic-i386-shield]
+
+Generic add-on for development purposes
+
+[:books: Generic add-on documentation][addon-doc-generic]
+
 ### &#10003; [Studio Code Server][addon-vscode]
 
 ![Latest Version][vscode-version-shield]
@@ -60,6 +73,7 @@ based on the following:
 
 Got questions?
 
+- [Open an issue for the add-on: Generic][generic-issue]
 - [Open an issue for the add-on: Studio Code Server][vscode-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
@@ -90,6 +104,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-generic]: https://github.com/elcajon/addon-generic/tree/1462fe1
+[addon-doc-generic]: https://github.com/elcajon/addon-generic/blob/1462fe1/README.md
+[generic-issue]: https://github.com/elcajon/addon-generic/issues
+[generic-version-shield]: https://img.shields.io/badge/version-1462fe1-blue.svg
+[generic-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[generic-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[generic-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[generic-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[generic-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-vscode]: https://github.com/elcajon/addon-vscode/tree/v4.0.3
 [addon-doc-vscode]: https://github.com/elcajon/addon-vscode/blob/v4.0.3/README.md
 [vscode-issue]: https://github.com/elcajon/addon-vscode/issues
