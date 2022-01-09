@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## ⬆️ Dependency updates
 
-- Initial add-on configuration and setup @elcajon (#1)
+- Add wget & curl to base image @elcajon (#2)
