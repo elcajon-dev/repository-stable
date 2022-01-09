@@ -1,16 +1,26 @@
----
-name: Generic
-version: 1462fe1
-slug: generic
-description: Generic add-on for development purposes
-url: https://github.com/elcajon/addon-generic
-init: false
 arch:
-  - aarch64
-  - amd64
-  - armhf
-  - armv7
-  - i386
+- aarch64
+- amd64
+- armhf
+- armv7
+- i386
+description: Generic add-on for development purposes
+docker_api: true
+full_access: true
+hassio_api: true
+hassio_role: manager
+homeassistant_api: true
+host_network: true
+image: ghcr.io/elcajon/generic/{arch}
+init: false
+map:
+- config:rw
+- ssl:rw
+- addons:rw
+- media:rw
+- share:rw
+- backup:rw
+name: Generic
 ports:
   8080/tcp: 8080
   8090/tcp: 8090
@@ -19,22 +29,12 @@ ports_description:
   8080/tcp: Sample interface 1
   8090/tcp: Sample interface 2
   8100/tcp: Sample interface 3
-host_network: true
-hassio_role: manager
-hassio_api: true
-homeassistant_api: true
-full_access: true
-map:
-  - config:rw
-  - ssl:rw
-  - addons:rw
-  - media:rw
-  - share:rw
-  - backup:rw
-docker_api: true
 privileged:
-  - NET_ADMIN
-  - SYS_ADMIN
-  - SYS_RAWIO
-  - SYS_TIME
-  - SYS_NICE
+- NET_ADMIN
+- SYS_ADMIN
+- SYS_RAWIO
+- SYS_TIME
+- SYS_NICE
+slug: generic
+url: https://github.com/elcajon/addon-generic
+version: 0.0.2
