@@ -33,6 +33,19 @@ https://github.com/elcajon/repository-stable
 
 ## Add-ons provided by this repository
 
+### &#10003; [Cloudflare Tunnel][addon-cloudflared]
+
+![Latest Version][cloudflared-version-shield]
+![Supports armhf Architecture][cloudflared-armhf-shield]
+![Supports armv7 Architecture][cloudflared-armv7-shield]
+![Supports aarch64 Architecture][cloudflared-aarch64-shield]
+![Supports amd64 Architecture][cloudflared-amd64-shield]
+![Supports i386 Architecture][cloudflared-i386-shield]
+
+Cloudflare Tunnel for proxy access
+
+[:books: Cloudflare Tunnel add-on documentation][addon-doc-cloudflared]
+
 ### &#10003; [Generic][addon-generic]
 
 ![Latest Version][generic-version-shield]
@@ -73,6 +86,7 @@ based on the following:
 
 Got questions?
 
+- [Open an issue for the add-on: Cloudflare Tunnel][cloudflared-issue]
 - [Open an issue for the add-on: Generic][generic-issue]
 - [Open an issue for the add-on: Studio Code Server][vscode-issue]
 
@@ -104,6 +118,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-cloudflared]: https://github.com/elcajon/addon-cloudflared/tree/f2dad94
+[addon-doc-cloudflared]: https://github.com/elcajon/addon-cloudflared/blob/f2dad94/README.md
+[cloudflared-issue]: https://github.com/elcajon/addon-cloudflared/issues
+[cloudflared-version-shield]: https://img.shields.io/badge/version-f2dad94-blue.svg
+[cloudflared-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[cloudflared-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[cloudflared-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[cloudflared-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[cloudflared-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-generic]: https://github.com/elcajon/addon-generic/tree/v0.0.5
 [addon-doc-generic]: https://github.com/elcajon/addon-generic/blob/v0.0.5/README.md
 [generic-issue]: https://github.com/elcajon/addon-generic/issues
