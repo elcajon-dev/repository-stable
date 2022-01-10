@@ -1,0 +1,17 @@
+---
+name: Cloudflare Tunnel
+version: f2dad94
+slug: cloudflared
+description: Cloudflare Tunnel for proxy access
+url: https://github.com/elcajon/addon-cloudflared
+startup: services
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+map:
+  - share:rw
+schema:
+  tunnel: str?
