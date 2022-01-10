@@ -1,9 +1,5 @@
 ## What’s changed
 
-## 🚀 Enhancements
+## 🐛 Bug fixes
 
-- Initial Relase @elcajon (#1)
-
-## 📚 Documentation
-
-- Update README.md @elcajon (#2)
+- Bugfix path @elcajon (#3)
