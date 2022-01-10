@@ -33,10 +33,12 @@ correctly configured.
 1. [Ingress Routing][ingress-route] can be done inside the
    file `/share/cloudflared/config.yaml`. Make sure to adjust `hostname`
    to the domain or subdomain you use for Home Assistant
-1. Add DNS `CNAME` for every configured hostname within
-   `/share/cloudflared/config.yaml`, check the logs for `CNAME` destination
-   URL.
-1. Restart add-on to propagate changes to the Cloudflare Tunnel.
+1. DNS `CNAME` for every configured hostname within
+   `/share/cloudflared/config.yaml`, will be configured automatically.
+   It is also possible to add DNS records manually or remove records,
+   which are no longer in use by the tunnel.
+1. Restart add-on to propagate changes to the Cloudflare Tunnel
+   and to update DNS records.
 
 ## License
 

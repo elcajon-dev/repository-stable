@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## 📚 Documentation
 
-- Bugfix DNS setup @elcajon (#8)
+- Update DOCS.md @elcajon (#9)
