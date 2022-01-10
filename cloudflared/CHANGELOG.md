@@ -1,5 +1,6 @@
 ## What’s changed
 
-## 🚨 Breaking changes
+## 🚀 Enhancements
 
-- Update template file @elcajon (#5)
+- Add automatic DNS setup @elcajon (#6)
+- Add yq and cloudflared to docker @elcajon (#7)

@@ -1,8 +1,6 @@
 arch:
 - aarch64
 - amd64
-- armhf
-- armv7
 description: Cloudflare Tunnel for proxy access
 image: ghcr.io/elcajon/cloudflared/{arch}
 init: false
@@ -14,4 +12,4 @@ schema:
 slug: cloudflared
 startup: services
 url: https://github.com/elcajon/addon-cloudflared
-version: 1.0.0
+version: 1.0.1
