@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 🐛 Bug fixes
+## 🚨 Breaking changes
 
-- Bugfix service startup @elcajon (#4)
+- Update template file @elcajon (#5)
