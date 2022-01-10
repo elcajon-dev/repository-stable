@@ -2,4 +2,4 @@
 
 ## 🐛 Bug fixes
 
-- Bugfix path @elcajon (#3)
+- Bugfix service startup @elcajon (#4)

@@ -21,8 +21,8 @@ Cloudflared Tunnel Home Assistant add-on.
 This add-on provides a Cloudflare Tunnel making it possible connecting
 to your Home Assistant instance without forwarding/opening any local router ports.
 
-An [Cloudflare][cloudflare] account is needed with your domain correctly configured. 
-
+An [Cloudflare][cloudflare] account is needed with your domain correctly
+configured.
 
 [:books: Read the full add-on documentation][docs]
 
@@ -57,7 +57,7 @@ SOFTWARE.
 [commits-shield]: https://img.shields.io/github/commit-activity/y/elcajon/addon-cloudflared.svg
 [commits]: https://github.com/elcajon/addon-cloudflared/commits/main
 [contributors]: https://github.com/elcajon/addon-cloudflared/graphs/contributors
-[docs]: https://github.com/elcajon/addon-cloudflared/blob/main/generic/DOCS.md
+[docs]: https://github.com/elcajon/addon-cloudflared/blob/main/cloudflared/DOCS.md
 [github-actions-shield]: https://github.com/elcajon/addon-cloudflared/workflows/CI/badge.svg
 [github-actions]: https://github.com/elcajon/addon-cloudflared/actions
 [i386-shield]: https://img.shields.io/badge/i386-no-red.svg
