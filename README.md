@@ -124,8 +124,8 @@ SOFTWARE.
 [cloudflared-version-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
 [cloudflared-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [cloudflared-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[cloudflared-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[cloudflared-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[cloudflared-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[cloudflared-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [cloudflared-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-generic]: https://github.com/elcajon/addon-generic/tree/v0.0.5
 [addon-doc-generic]: https://github.com/elcajon/addon-generic/blob/v0.0.5/README.md
