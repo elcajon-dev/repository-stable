@@ -1,5 +1,5 @@
 ## What’s changed
 
-## 📚 Documentation
+## 🚀 Enhancements
 
-- Update DOCS.md @elcajon (#9)
+- Update cloudflared
