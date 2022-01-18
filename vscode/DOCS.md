@@ -28,24 +28,33 @@ comparison to installing any other Home Assistant add-on.
 Example add-on configuration:
 
 ```yaml
-vscode:
-  packages:
-    - mariadb-client
-  init_commands:
-    - ls -la
-ssh:
-  authorized_keys:
-    - ssh-rsa AAAAB3NzaC1yc2EAAAAD....
-  compatibility_mode: false
+packages:
+  - mariadb-client
+init_commands:
+  - ls -la
 ```
 
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
 
-### Option group `vscode`
+### Option: `log_level`
 
----
+The `log_level` option controls the level of log output by the addon and can
+be changed to be more or less verbose, which might be useful when you are
+dealing with an unknown issue. Possible values are:
 
-#### Option: `vscode`: `packages`
+- `trace`: Show every detail, like all called internal functions.
+- `debug`: Shows detailed debug information.
+- `info`: Normal (usually) interesting events.
+- `warning`: Exceptional occurrences that are not errors.
+- `error`: Runtime errors that do not require immediate action.
+- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+
+Please note that each level automatically includes log messages from a
+more severe level, e.g., `debug` also shows `info` messages. By default,
+the `log_level` is set to `info`, which is the recommended setting unless
+you are troubleshooting.
+
+### Option: `packages`
 
 Allows you to specify additional [Ubuntu packages][ubuntu-packages] to be
 installed in your shell environment (e.g., Python, PHP, Go).
@@ -53,30 +62,11 @@ installed in your shell environment (e.g., Python, PHP, Go).
 **Note**: _Adding many packages will result in a longer start-up
 time for the add-on._
 
-#### Option: `vscode`: `init_commands`
+### Option: `init_commands`
 
 Customize your VSCode environment even more with the `init_commands` option.
 Add one or more shell commands to the list, and they will be executed every
 single time this add-on starts.
-
-### Option group `ssh`
-
----
-
-#### Option: `ssh`: `authorized_keys`
-
-Add one or more public keys to your SSH server to use with authentication.
-This is the recommended over setting a password.
-Attention: SSH service will only be enabled when assigning external port to 22/tcp.
-
-#### Option `ssh`: `compatibility_mode`
-
-This SSH add-on focusses on security and has therefore only enabled known
-secure encryption methods. However, some older clients do not support these.
-Setting this option to `true` will enable the original default set of methods,
-allowing those clients to connect.
-
-**Note**: _Enabling this option, lowers the security of your SSH server!_
 
 ## Resetting your VSCode settings to the add-on defaults
 
