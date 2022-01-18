@@ -68,7 +68,7 @@ Generic add-on for development purposes
 ![Supports amd64 Architecture][vscode-amd64-shield]
 ![Supports i386 Architecture][vscode-i386-shield]
 
-Fully featured VSCode experience, to edit your HA config in the browser, including auto-completion!
+Fully featured Visual Studio Code (VSCode) experience integrated in the Home Assistant frontend.
 
 [:books: Studio Code Server add-on documentation][addon-doc-vscode]
 
