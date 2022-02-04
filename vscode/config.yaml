@@ -20,16 +20,9 @@ map:
 - share:rw
 - backup:rw
 name: Studio Code Server
-options:
-  init_commands: []
-  packages: []
 panel_icon: mdi:microsoft-visual-studio-code
 schema:
-  init_commands:
-  - str
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  packages:
-  - str
 services:
 - mysql:want
 - mqtt:want
@@ -37,4 +30,4 @@ slug: vscode
 startup: services
 uart: true
 url: https://github.com/elcajon/addon-vscode
-version: 5.0.3
+version: 6.0.0
