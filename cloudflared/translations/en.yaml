@@ -1,6 +1,0 @@
----
-configuration:
-  tunnel:
-    name: Tunnel Name
-    description: >-
-      Define the Cloudflare tunnel name, defaults to "homeassistant".
