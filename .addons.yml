@@ -9,7 +9,3 @@ addons:
     repository: elcajon/addon-generic
     target: generic
     image: ghcr.io/elcajon/generic/{arch}
-  cloudflared:
-    repository: elcajon/addon-cloudflared
-    target: cloudflared
-    image: ghcr.io/elcajon/cloudflared/{arch}
