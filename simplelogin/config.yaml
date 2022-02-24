@@ -1,0 +1,20 @@
+---
+name: Simplelogin
+version: b8079f1
+slug: simplelogin
+description: Simplelogin self-hosted Server
+url: https://github.com/elcajon/addon-simplelogin
+init: false
+arch:
+  - amd64
+ports:
+  25/tcp: 25
+  80/tcp: 80
+  443/tcp: 443
+ports_description:
+  25/tcp: SMTP
+  80/tcp: Web interface http
+  443/tcp: Web interface https
+map:
+  - ssl:rw
+  - share:rw

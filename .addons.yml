@@ -9,3 +9,7 @@ addons:
     repository: elcajon/addon-generic
     target: generic
     image: ghcr.io/elcajon/generic/{arch}
+  simplelogin:
+    repository: elcajon/addon-simplelogin
+    target: simplelogin
+    image: ghcr.io/elcajon/simplelogin/{arch}
