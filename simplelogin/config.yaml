@@ -1,20 +1,34 @@
----
-name: Simplelogin
-version: b8079f1
-slug: simplelogin
-description: Simplelogin self-hosted Server
-url: https://github.com/elcajon/addon-simplelogin
-init: false
 arch:
-  - amd64
+- amd64
+description: Simplelogin self-hosted Server
+image: ghcr.io/elcajon/simplelogin/{arch}
+ingress: true
+init: false
+map:
+- ssl:rw
+- share:rw
+name: Simplelogin
+options:
+  certfile: fullchain.pem
+  disable_registration: false
+  keyfile: privkey.pem
+  maildomain: null
+  ssl: false
+  webdomain: null
 ports:
   25/tcp: 25
   80/tcp: 80
-  443/tcp: 443
 ports_description:
   25/tcp: SMTP
-  80/tcp: Web interface http
-  443/tcp: Web interface https
-map:
-  - ssl:rw
-  - share:rw
+  80/tcp: Web interface
+schema:
+  certfile: str
+  disable_registration: bool
+  keyfile: str
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  maildomain: str
+  ssl: bool
+  webdomain: str
+slug: simplelogin
+url: https://github.com/elcajon/addon-simplelogin
+version: 0.0.1
