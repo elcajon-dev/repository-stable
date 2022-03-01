@@ -25,15 +25,6 @@ comparison to installing any other Home Assistant add-on.
 
 **Note**: _Remember to restart the add-on when the configuration is changed._
 
-Example add-on configuration:
-
-```yaml
-packages:
-  - mariadb-client
-init_commands:
-  - ls -la
-```
-
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
 
 ### Option: `log_level`
@@ -53,20 +44,6 @@ Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
 the `log_level` is set to `info`, which is the recommended setting unless
 you are troubleshooting.
-
-### Option: `packages`
-
-Allows you to specify additional [Ubuntu packages][ubuntu-packages] to be
-installed in your shell environment (e.g., Python, PHP, Go).
-
-**Note**: _Adding many packages will result in a longer start-up
-time for the add-on._
-
-### Option: `init_commands`
-
-Customize your VSCode environment even more with the `init_commands` option.
-Add one or more shell commands to the list, and they will be executed every
-single time this add-on starts.
 
 ## Resetting your VSCode settings to the add-on defaults
 
