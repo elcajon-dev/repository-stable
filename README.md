@@ -1,4 +1,4 @@
-# Home Assistant Community Add-ons
+# Home Assistant Add-ons
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -122,14 +122,8 @@ SOFTWARE.
 [vscode-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [vscode-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [vscode-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
-[awesome]: https://awesome-ha.com
-[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[gitlabci-shield]: https://gitlab.com/elcajon/repository-stable/badges/master/pipeline.svg
-[gitlabci]: https://gitlab.com/elcajon/repository-stable/pipelines
 [issue]: https://github.com/elcajon/repository-stable/issues
 [license-shield]: https://img.shields.io/github/license/elcajon/repository-stable.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [semver]: http://semver.org/spec/v2.0.0.html
