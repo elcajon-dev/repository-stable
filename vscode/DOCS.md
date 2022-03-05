@@ -45,6 +45,12 @@ more severe level, e.g., `debug` also shows `info` messages. By default,
 the `log_level` is set to `info`, which is the recommended setting unless
 you are troubleshooting.
 
+### Option: `init_path`
+
+The `init_path` option allows to change the path containing the custom
+init scripts and services. The default value is `/share` which is leading to
+`/share/vscode/{cont-init.d,services.d}`.
+
 ## Resetting your VSCode settings to the add-on defaults
 
 The add-on updates your settings to be optimized for use with Home Assistant.

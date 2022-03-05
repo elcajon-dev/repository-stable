@@ -22,6 +22,7 @@ map:
 name: Studio Code Server
 panel_icon: mdi:microsoft-visual-studio-code
 schema:
+  init_path: str?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
 services:
 - mysql:want
@@ -30,4 +31,4 @@ slug: vscode
 startup: services
 uart: true
 url: https://github.com/elcajon/addon-vscode
-version: 6.0.4
+version: 6.0.5
