@@ -5,7 +5,7 @@ description: Fully featured Visual Studio Code (VSCode) experience integrated in
   Home Assistant frontend.
 docker_api: true
 hassio_api: true
-hassio_role: manager
+hassio_role: admin
 homeassistant_api: true
 image: ghcr.io/elcajon/vscode/{arch}
 ingress: true
@@ -31,4 +31,4 @@ slug: vscode
 startup: services
 uart: true
 url: https://github.com/elcajon/addon-vscode
-version: 6.0.5
+version: 6.0.6
