@@ -1,4 +1,4 @@
 ## What’s changed
 ## 🚀 Enhancements
 
-- Change hassio_role to admin @elcajon (#149)
+- Remove pip packages @elcajon (#150)
