@@ -1,4 +1,4 @@
 ## What’s changed
-## 📚 Documentation
+## 🚀 Enhancements
 
-- Update README.md @elcajon (#16)
+- Add Codenotary CAS @elcajon (#18)

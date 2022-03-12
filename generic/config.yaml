@@ -4,6 +4,7 @@ arch:
 - armhf
 - armv7
 - i386
+codenotary: agonist02_stiel@icloud.com
 description: Generic add-on for development purposes
 docker_api: true
 full_access: true
@@ -37,4 +38,4 @@ privileged:
 - SYS_NICE
 slug: generic
 url: https://github.com/elcajon/addon-generic
-version: 0.0.9
+version: 0.0.10
