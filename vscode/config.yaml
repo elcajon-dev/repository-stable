@@ -29,5 +29,6 @@ services:
 - mysql:want
 - mqtt:want
 slug: vscode
+startup: services
 url: https://github.com/elcajon/addon-vscode
-version: 7.0.0
+version: 7.0.1
