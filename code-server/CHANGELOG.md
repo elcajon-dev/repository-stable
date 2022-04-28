@@ -1,11 +1,11 @@
-# Changelog since v7.0.1
-- Merge pull request #187 from elcajon/elcajon-p1
+## What’s changed
+## 🚨 Breaking changes
 
-Fix init structure 
-- Merge branch 'elcajon-p1' of github.com:elcajon/addon-code-server into elcajon-p1 
-- Change Init structure 
-- Merge pull request #186 from elcajon/elcajon-p1
+Add-on name changed from VSCode to Code-Server.
+Fresh add-on installation is required.
 
-Rename Add-On 
-- Rename Add-On 
-- Rename Add-on 
+- Rename Add-On @elcajon (#186)
+
+## 🐛 Bug fixes
+
+- Fix init structure @elcajon (#187)
