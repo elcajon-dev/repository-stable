@@ -2,13 +2,12 @@ arch:
 - aarch64
 - amd64
 codenotary: agonist02_stiel@icloud.com
-description: Fully featured Visual Studio Code (VSCode) experience integrated in the
-  Home Assistant frontend.
+description: Code Server experience integrated in the Home Assistant frontend.
 docker_api: true
 hassio_api: true
 hassio_role: manager
 homeassistant_api: true
-image: ghcr.io/elcajon/vscode/{arch}
+image: ghcr.io/elcajon/code-server/{arch}
 ingress: true
 ingress_port: 1337
 ingress_stream: true
@@ -20,15 +19,15 @@ map:
 - media:rw
 - share:rw
 - backup:rw
-name: Studio Code Server
-panel_icon: mdi:microsoft-visual-studio-code
+name: Code Server
+panel_icon: mdi:code-json
 schema:
   init_path: str?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
 services:
 - mysql:want
 - mqtt:want
-slug: vscode
+slug: code-server
 startup: services
-url: https://github.com/elcajon/addon-vscode
-version: 7.0.1
+url: https://github.com/elcajon/addon-code-server
+version: d7ab7d7
