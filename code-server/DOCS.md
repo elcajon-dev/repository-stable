@@ -1,11 +1,8 @@
-# Home Assistant Add-on: Studio Code Server
+# Home Assistant Add-on: Code Server
 
-This add-on runs Studio Code Server, allowing you to edit your Home Assistant
-configuration directly from your web browser and can be embedded straight
-into the Home Assistant frontend UI.
-
-Visual Studio Code runs as a remote server using `code-server`, and is a
-fully fledged VSCode experience.
+Code Server experience integrated in the Home Assistant frontend,
+allowing you to edit your Home Assistant configuration directly from your
+web browser.
 
 The add-on has the Home Assistant, MDI icons and YAML extensions pre-installed
 and pre-configured right out of the box. This means that auto-completion works
@@ -47,11 +44,13 @@ you are troubleshooting.
 
 ### Option: `init_path`
 
-The `init_path` option allows to change the path containing the custom
-init scripts and services. The default value is `/share` which is leading to
-`/share/vscode/{cont-init.d,services.d}`.
+The `init_path` option allows to set the path containing the custom
+init scripts and services. For exmpale `/share` will lead to
+`/share/code-server/{cont-init.d,services.d}`.
 
-## Resetting your VSCode settings to the add-on defaults
+If this option isn't set, this function will not work.
+
+## Resetting your Code Server settings to the add-on defaults
 
 The add-on updates your settings to be optimized for use with Home Assistant.
 As soon as you change a setting, the add-on will stop doing that since it

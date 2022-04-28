@@ -21,6 +21,10 @@ map:
 - backup:rw
 name: Code Server
 panel_icon: mdi:code-json
+ports:
+  22/tcp: null
+ports_description:
+  22/tcp: SSH (assign port to activate SSH service)
 schema:
   init_path: str?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
@@ -30,4 +34,4 @@ services:
 slug: code-server
 startup: services
 url: https://github.com/elcajon/addon-code-server
-version: 8.0.0
+version: 8.0.1
