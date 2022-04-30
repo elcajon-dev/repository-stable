@@ -1,5 +1,8 @@
 ## What’s changed
+## 🐛 Bug fixes
+
+- Disable Apparmor @elcajon (#22)
+
 ## ⬆️ Dependency updates
 
-- Bump docker/build-push-action from 2.9.0 to 2.10.0 @dependabot (#19)
-- Bump peter-evans/repository-dispatch from 1.1.3 to 2 @dependabot (#20)
+- Bump docker/setup-buildx-action from 1.6.0 to 1.7.0 @dependabot (#21)

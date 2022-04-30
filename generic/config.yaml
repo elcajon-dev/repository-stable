@@ -1,3 +1,4 @@
+apparmor: false
 arch:
 - aarch64
 - amd64
@@ -38,4 +39,4 @@ privileged:
 - SYS_NICE
 slug: generic
 url: https://github.com/elcajon/addon-generic
-version: 0.0.11
+version: 0.0.12
