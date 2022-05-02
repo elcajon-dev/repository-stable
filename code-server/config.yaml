@@ -1,3 +1,4 @@
+apparmor: false
 arch:
 - aarch64
 - amd64
@@ -36,4 +37,4 @@ services:
 slug: code-server
 startup: services
 url: https://github.com/elcajon/addon-code-server
-version: 8.0.4
+version: 8.0.5

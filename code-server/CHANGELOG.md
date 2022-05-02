@@ -1,4 +1,4 @@
 ## What’s changed
 ## 🚀 Enhancements
 
-- Add SYS_ADMIN CAP @elcajon (#193)
+- Disable apparmor @elcajon (#194)
