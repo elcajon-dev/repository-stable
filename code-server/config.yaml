@@ -25,6 +25,8 @@ ports:
   22/tcp: null
 ports_description:
   22/tcp: SSH (assign port to activate SSH service)
+privileged:
+- SYS_ADMIN
 schema:
   init_path: str?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
@@ -34,4 +36,4 @@ services:
 slug: code-server
 startup: services
 url: https://github.com/elcajon/addon-code-server
-version: 8.0.3
+version: 8.0.4
