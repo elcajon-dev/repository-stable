@@ -1,7 +1,5 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- Bump docker/login-action from 1.14.1 to 2.0.0 @dependabot (#196)
-- Bump docker/build-push-action from 2.10.0 to 3.0.0 @dependabot (#197)
-- Bump docker/setup-buildx-action from 1.7.0 to 2.0.0 @dependabot (#198)
-- Bump docker/setup-qemu-action from 1.2.0 to 2.0.0 @dependabot (#199)
+- Update Docker to 5.2.5-2.1~deb11u1 @elcajon (#201)
+- ℹ️ Update coder/code-server to version v4.4.0 @github-actions (#200)
