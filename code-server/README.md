@@ -17,6 +17,6 @@ instantly, without the need for configuring anything.
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v8.0.10-blue.svg
-[release]: https://github.com/elcajon/addon-code-server/tree/v8.0.10
+[release-shield]: https://img.shields.io/badge/version-v8.0.11-blue.svg
+[release]: https://github.com/elcajon/addon-code-server/tree/v8.0.11
 [screenshot]: https://github.com/elcajon/addon-code-server/raw/main/images/screenshot.png

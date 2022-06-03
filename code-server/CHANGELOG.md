@@ -1,4 +1,8 @@
 ## What’s changed
+## 🧰 Maintenance
+
+- Update github_updater.yaml @elcajon (#207)
+
 ## ⬆️ Dependency updates
 
-- Update code-server.extensions to latest versions @elcajon (#205)
+- ℹ️ Update home-assistant/cli to version 4.18.0 @github-actions (#206)
