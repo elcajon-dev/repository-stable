@@ -1,5 +1,13 @@
 ## What’s changed
+## 🚨 Breaking changes
+
+- Remove aarch64 support @elcajon (#212)
+
+## 📚 Documentation
+
+- Update Documentation Shields @elcajon (#210)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Upgrades keesschollaart.vscode-home-assistant to 1.30.1 @elcajon (#208)
-- ⬆️ Update usernamehw.errorlens to v3.5.1 @elcajon (#209)
+- Update base image to 6.0.0 @elcajon (#211)
+- Update code-server.extensions @elcajon (#213)
