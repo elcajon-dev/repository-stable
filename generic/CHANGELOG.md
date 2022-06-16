@@ -1,5 +1,8 @@
 ## What’s changed
-## 📚 Documentation
+## 🐛 Bug fixes
 
-- Update issue templates @elcajon (#27)
-- Create CODE_OF_CONDUCT.md @elcajon (#28)
+- Update chmod @elcajon (#30)
+
+## ⬆️ Dependency updates
+
+- Update base image to 6.0.0 @elcajon (#29)

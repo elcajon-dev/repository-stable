@@ -39,4 +39,4 @@ privileged:
 - SYS_NICE
 slug: generic
 url: https://github.com/elcajon/addon-generic
-version: 0.0.14
+version: 0.0.15
