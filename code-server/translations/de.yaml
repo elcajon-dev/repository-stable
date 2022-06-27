@@ -9,5 +9,3 @@ configuration:
     description: >-
       Pfad für die custom-config und custom-service Skripte.
       Funktion ist deaktiviert falls Wert leer ist.
-network:
-  22/tcp: SSH (Port zuweisen um SSH Service zu aktivieren)

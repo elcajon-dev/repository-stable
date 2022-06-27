@@ -1,13 +1,16 @@
 ## What’s changed
 ## 🚨 Breaking changes
 
-- Remove aarch64 support @elcajon (#212)
+- Remove ssh service @elcajon (#215)
 
-## 📚 Documentation
+## 🚀 Enhancements
 
-- Update Documentation Shields @elcajon (#210)
+- Add tailscale @elcajon (#217)
+
+## 🧰 Maintenance
+
+- Refactor workflow files @elcajon (#216)
 
 ## ⬆️ Dependency updates
 
-- Update base image to 6.0.0 @elcajon (#211)
-- Update code-server.extensions @elcajon (#213)
+- Bump frenck/action-addon-linter from 2.8 to 2.9 @dependabot (#214)

@@ -9,5 +9,3 @@ configuration:
     description: >-
       Defines the path for custom-config and custom-service scripts.
       Deactivated if config option is empty.
-network:
-  22/tcp: SSH (assign port to activate SSH service)
