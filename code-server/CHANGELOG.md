@@ -1,4 +1,4 @@
 ## What’s changed
-## ⬆️ Dependency updates
+## 🚀 Enhancements
 
-- ⬆️ Update tailscale/tailscale to version v1.26.1 @github-actions (#218)
+- Cloudflare @elcajon (#221)
