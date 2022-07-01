@@ -5,7 +5,3 @@ addons:
     repository: elcajon/addon-code-server
     target: code-server
     image: ghcr.io/elcajon/code-server/{arch}
-  generic:
-    repository: elcajon/addon-generic
-    target: generic
-    image: ghcr.io/elcajon/generic/{arch}
