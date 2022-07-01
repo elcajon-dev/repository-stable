@@ -38,19 +38,6 @@ Code Server experience integrated in the Home Assistant frontend.
 
 [:books: Code Server add-on documentation][addon-doc-code-server]
 
-### &#10003; [Generic][addon-generic]
-
-![Latest Version][generic-version-shield]
-![Supports armhf Architecture][generic-armhf-shield]
-![Supports armv7 Architecture][generic-armv7-shield]
-![Supports aarch64 Architecture][generic-aarch64-shield]
-![Supports amd64 Architecture][generic-amd64-shield]
-![Supports i386 Architecture][generic-i386-shield]
-
-Generic add-on for development purposes
-
-[:books: Generic add-on documentation][addon-doc-generic]
-
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
@@ -66,7 +53,6 @@ based on the following:
 Got questions?
 
 - [Open an issue for the add-on: Code Server][code-server-issue]
-- [Open an issue for the add-on: Generic][generic-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -101,15 +87,6 @@ SOFTWARE.
 [code-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [code-server-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [code-server-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-generic]: https://github.com/elcajon/addon-generic/tree/v0.0.15
-[addon-doc-generic]: https://github.com/elcajon/addon-generic/blob/v0.0.15/README.md
-[generic-issue]: https://github.com/elcajon/addon-generic/issues
-[generic-version-shield]: https://img.shields.io/badge/version-v0.0.15-blue.svg
-[generic-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[generic-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[generic-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[generic-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[generic-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [issue]: https://github.com/elcajon/repository-stable/issues
 [license-shield]: https://img.shields.io/github/license/elcajon/repository-stable.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
