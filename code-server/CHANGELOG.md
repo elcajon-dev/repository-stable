@@ -1,4 +1,4 @@
 ## What’s changed
 ## 🚀 Enhancements
 
-- Cloudflare @elcajon (#221)
+- Change custom init to handle directories @elcajon (#222)
