@@ -1,4 +1,4 @@
 ## What’s changed
 ## 🐛 Bug fixes
 
-- Add .zshrc @elcajon (#229)
+- Revert @elcajon (#230)
