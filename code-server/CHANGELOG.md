@@ -1,6 +1,6 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- Update gnupg to 2.2.27-2+deb11u2 @elcajon (#233)
-- ⬆️ Update tailscale/tailscale to version v1.26.2 @github-actions (#232)
-- ⬆️ Update cloudflare/cloudflared to version 2022.7.1 @github-actions (#231)
+- Update package versions @elcajon (#235)
+- ⬆️ Update rclone/rclone to version v1.59.0 @github-actions (#234)
+- Bump frenck/action-yamllint from 1.1 to 1.2 @dependabot (#236)
