@@ -1,4 +1,5 @@
 arch:
+- aarch64
 - amd64
 codenotary: agonist02_stiel@icloud.com
 description: Code Server experience integrated in the Home Assistant frontend.
@@ -18,7 +19,7 @@ map:
 - media:rw
 - share:rw
 - backup:rw
-name: Code Server
+name: Advanced Code Server
 panel_icon: mdi:code-json
 schema:
   init_path: str?
@@ -28,5 +29,6 @@ services:
 - mqtt:want
 slug: code-server
 startup: services
+uart: true
 url: https://github.com/elcajon/addon-code-server
-version: 9.5.9
+version: 9.5.10

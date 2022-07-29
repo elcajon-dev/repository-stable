@@ -1,6 +1,15 @@
 ## What’s changed
+## 🚀 Enhancements
+
+- Add custom-service command @elcajon (#244)
+
+## 📚 Documentation
+
+- Update Documentation I @elcajon (#240)
+- Update Documentation II @elcajon (#242)
+- Update Documentation III @elcajon (#243)
+- Add sample scripts and services @elcajon (#245)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to version v1.28.0 @github-actions (#237)
-- Bump docker/build-push-action from 3.0.0 to 3.1.0 @dependabot (#238)
-- ⬆️ Update coder/code-server to version v4.5.1 @github-actions (#239)
+- ⬆️ Update Base Image 6.1.0 @elcajon (#241)
