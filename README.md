@@ -25,7 +25,7 @@ https://github.com/elcajon/repository-stable
 
 ## Add-ons provided by this repository
 
-### &#10003; [Code Server][addon-code-server]
+### &#10003; [Advanced Code Server][addon-code-server]
 
 ![Latest Version][code-server-version-shield]
 ![Supports armhf Architecture][code-server-armhf-shield]
@@ -36,7 +36,7 @@ https://github.com/elcajon/repository-stable
 
 Code Server experience integrated in the Home Assistant frontend.
 
-[:books: Code Server add-on documentation][addon-doc-code-server]
+[:books: Advanced Code Server add-on documentation][addon-doc-code-server]
 
 ## Releases
 
@@ -52,7 +52,7 @@ based on the following:
 
 Got questions?
 
-- [Open an issue for the add-on: Code Server][code-server-issue]
+- [Open an issue for the add-on: Advanced Code Server][code-server-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -82,7 +82,7 @@ SOFTWARE.
 [addon-doc-code-server]: https://github.com/elcajon/addon-code-server/blob/v9.5.9/README.md
 [code-server-issue]: https://github.com/elcajon/addon-code-server/issues
 [code-server-version-shield]: https://img.shields.io/badge/version-v9.5.9-blue.svg
-[code-server-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
+[code-server-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [code-server-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [code-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [code-server-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
