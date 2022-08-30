@@ -26,6 +26,7 @@ using [this GitHub repository][ha-addons] or by clicking the button below.
 - Tailscale (Zero config VPN. Installs on any device in minutes.)
 - Cloudflared (Cloudflare Tunnel provides you with a secure way to connect your
   resources to Cloudflare without a publicly routable IP address.)
+- Appdaemon
 - Custom Init scripts and services (see next chapter)
 
 ## Configuration

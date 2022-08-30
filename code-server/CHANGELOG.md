@@ -1,11 +1,16 @@
 ## What’s changed
-## 🚀 Enhancements
+## 🐛 Bug fixes
 
-- Add Appdaemon @elcajon (#260)
+- Add appdaemon libraries @elcajon (#263)
+
+## 🧰 Maintenance
+
+- Add Docker Dependabot updates @elcajon (#264)
+
+## 📚 Documentation
+
+- Add Appdaemon to documentation @elcajon (#265)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update home-assistant/cli to version 4.20.0 @github-actions (#258)
-- ⬆️ Update home-assistant/cli to version 4.21.0 @github-actions (#259)
-- ⬆️ Update curl to v.7.74.0-1.3+deb11u2 @elcajon (#262)
-- ⬆️ Update base image to 6.1.1 @elcajon (#261)
+- Bump esphome from 2022.6.2 to 2022.8.0 in /code-server @dependabot (#266)

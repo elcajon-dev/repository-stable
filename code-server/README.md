@@ -26,13 +26,14 @@ For example:
 - Tailscale installed
 - Cloudflare installed
 - Rclone installed
+- Appdaemon installed
 - Custom cont-init.d and services.d scripts
 
 Please be aware that when misused you can destroy your whole system with this add-on.
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v9.5.14-blue.svg
-[release]: https://github.com/elcajon/addon-code-server/tree/v9.5.14
+[release-shield]: https://img.shields.io/badge/version-v9.5.15-blue.svg
+[release]: https://github.com/elcajon/addon-code-server/tree/v9.5.15
 [screenshot]: https://github.com/elcajon/addon-code-server/raw/main/images/screenshot.png
 [hassio-addons]: https://github.com/hassio-addons/addon-vscode
