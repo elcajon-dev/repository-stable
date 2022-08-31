@@ -1,4 +1,5 @@
 ## What’s changed
-## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to version v1.30.0 @github-actions (#5)
+## 🧰 Maintenance
+
+- Update github_updater.yaml @elcajon (#6)
