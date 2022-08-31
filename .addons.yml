@@ -6,6 +6,6 @@ addons:
     target: code-server
     image: ghcr.io/elcajon/code-server/{arch}
   tailscale:
-    repository: elcajon/tailscale
+    repository: elcajon/addon-tailscale
     target: tailscale
     image: ghcr.io/elcajon/tailscale/{arch}
