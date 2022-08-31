@@ -9,4 +9,3 @@ addons:
     repository: elcajon/tailscale
     target: tailscale
     image: ghcr.io/elcajon/tailscale/{arch}
-  
