@@ -1,9 +1,6 @@
 ## What’s changed
-## 🧰 Maintenance
-
-- Update github_updater.yaml @elcajon (#268)
-- Update github_updater.yaml @elcajon (#269)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to version v1.30.0 @elcajon-bot (#270)
+- ⬆️ Update cloudflare/cloudflared to version 2022.8.4 @elcajon-bot (#273)
+- ⬆️ Update coder/code-server to version v4.6.1 @elcajon-bot (#272)
+- Bump esphome from 2022.8.0 to 2022.8.1 in /code-server @dependabot (#271)
