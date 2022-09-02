@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Tailscale
+# Home Assistant Add-on: Adguard-Tailscale
 
 Tailscale is a zero config VPN, which installs on any device in minutes,
 including your Home Assistant instance.
@@ -6,6 +6,15 @@ including your Home Assistant instance.
 Create a secure network between your servers, computers, and cloud instances.
 Even when separated by firewalls or subnets, Tailscale just works. Tailscale
 manages firewall rules for you, and works from anywhere you are.
+
+AdGuard Home is a network-wide ad-and-tracker blocking DNS server with parental
+control (adult content blocking) capabilities. Its purpose is to let you
+control your entire network and all your devices, and it does not require
+using a client-side program.
+
+This add-on combines both functionalities and allows you to set up AdGuard
+with your Tailscale internal IP. This allows you to block traffic without
+forwarding your subnets with Tailscale.
 
 ## Prerequisites
 
@@ -22,18 +31,21 @@ however, it is nice to know where you need to go later on.
 
 ## Installation
 
+1. 1. **Ensure your Home Assistant device has a
+      [static IP and static external DNS servers!](https://github.com/home-assistant/hassos/blob/dev/Documentation/network.md#static-ip)**
+      This is important! You **WILL** end up having issues if you skip this step.
 1. Click the Home Assistant My button below to open the add-on on your Home
    Assistant instance.
 
    [![Add Repository to HA][my-ha-badge]][my-ha-url]
 
 1. Click the "Install" button to install the add-on.
-1. Start the "Tailscale" add-on.
-1. Check the logs of the "Tailscale" add-on to see if everything went well.
-1. Open the Web UI of the "Tailscale" add-on to complete authentication and
+1. Start the "Adguard-Tailscale" add-on.
+1. Check the logs of the "Adguard-Tailscale" add-on to see if
+   everything went well.
+1. Check the logs of the "Adguard-Tailscale" add-on to
+   complete authentication and
    couple your Home Assistant instance with your Tailscale account.
-   **Note:** Some browsers don't work with this step. It is recommended to
-   complete this step on a desktop or laptop computer using the Chrome browser.
 1. Done!
 
 ## Configuration
@@ -55,7 +67,26 @@ subnet to Tailscale.
 tags:
   - tag:example-server
   - tag:homeassistant
+log_level: info
 ```
+
+### Option: `log_level`
+
+The `log_level` option controls the level of log output by the addon and can
+be changed to be more or less verbose, which might be useful when you are
+dealing with an unknown issue. Possible values are:
+
+- `trace`: Show every detail, like all called internal functions.
+- `debug`: Shows detailed debug information.
+- `info`: Normal (usually) interesting events.
+- `warning`: Exceptional occurrences that are not errors.
+- `error`: Runtime errors that do not require immediate action.
+- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+
+Please note that each level automatically includes log messages from a
+more severe level, e.g., `debug` also shows `info` messages. By default,
+the `log_level` is set to `info`, which is the recommended setting unless
+you are troubleshooting.
 
 ### Option: `tags`
 

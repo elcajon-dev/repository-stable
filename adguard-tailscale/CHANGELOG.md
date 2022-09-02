@@ -1,5 +1,8 @@
 ## What’s changed
+## 🚀 Enhancements
 
-## 🧰 Maintenance
+- Add Adguard Home @elcajon (#15)
 
-- Update github_updater.yaml @elcajon (#6)
+## ⬆️ Dependency updates
+
+- ⬆️ Update AdguardTeam/AdGuardHome to version v0.107.11 @elcajon-bot (#13)

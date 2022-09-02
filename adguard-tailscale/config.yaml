@@ -4,25 +4,34 @@ arch:
 - armhf
 - armv7
 - i386
+auth_api: true
 codenotary: agonist02_stiel@icloud.com
-description: Zero config VPN for building secure networks
+description: Zero config VPN and network wide ad-blocking
 devices:
 - /dev/net/tun
+discovery:
+- adguard
 hassio_api: true
+hassio_role: manager
 host_network: true
-image: ghcr.io/elcajon/tailscale/{arch}
+image: ghcr.io/elcajon/adguard-tailscale/{arch}
 ingress: true
 ingress_port: 0
 ingress_stream: true
 init: false
-name: Tailscale
-panel_icon: mdi:vpn
+name: Adguard & Tailscale
+panel_icon: mdi:shield-check
+ports:
+  53/udp: 53
+ports_description:
+  53/udp: DNS server port
 privileged:
 - NET_ADMIN
 schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
   tags:
   - match(^tag:[a-zA-Z0-9]+-?[a-zA-Z0-9]+$)?
-slug: tailscale
+slug: adguard-tailscale
 startup: services
-url: https://github.com/elcajon/addon-tailscale
-version: 0.1.2
+url: https://github.com/elcajon/addon-adguard-tailscale
+version: 0.1.3
