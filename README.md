@@ -25,6 +25,19 @@ https://github.com/elcajon/repository-stable
 
 ## Add-ons provided by this repository
 
+### &#10003; [Adguard & Tailscale][addon-adguard-tailscale]
+
+![Latest Version][adguard-tailscale-version-shield]
+![Supports armhf Architecture][adguard-tailscale-armhf-shield]
+![Supports armv7 Architecture][adguard-tailscale-armv7-shield]
+![Supports aarch64 Architecture][adguard-tailscale-aarch64-shield]
+![Supports amd64 Architecture][adguard-tailscale-amd64-shield]
+![Supports i386 Architecture][adguard-tailscale-i386-shield]
+
+Zero config VPN and network wide ad-blocking
+
+[:books: Adguard & Tailscale add-on documentation][addon-doc-adguard-tailscale]
+
 ### &#10003; [Advanced Code Server][addon-code-server]
 
 ![Latest Version][code-server-version-shield]
@@ -37,19 +50,6 @@ https://github.com/elcajon/repository-stable
 Code Server experience integrated in the Home Assistant frontend.
 
 [:books: Advanced Code Server add-on documentation][addon-doc-code-server]
-
-### &#10003; [Tailscale][addon-tailscale]
-
-![Latest Version][tailscale-version-shield]
-![Supports armhf Architecture][tailscale-armhf-shield]
-![Supports armv7 Architecture][tailscale-armv7-shield]
-![Supports aarch64 Architecture][tailscale-aarch64-shield]
-![Supports amd64 Architecture][tailscale-amd64-shield]
-![Supports i386 Architecture][tailscale-i386-shield]
-
-Zero config VPN for building secure networks
-
-[:books: Tailscale add-on documentation][addon-doc-tailscale]
 
 ## Releases
 
@@ -65,8 +65,8 @@ based on the following:
 
 Got questions?
 
+- [Open an issue for the add-on: Adguard & Tailscale][adguard-tailscale-issue]
 - [Open an issue for the add-on: Advanced Code Server][code-server-issue]
-- [Open an issue for the add-on: Tailscale][tailscale-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -92,6 +92,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-adguard-tailscale]: https://github.com/elcajon/addon-adguard-tailscale/tree/v0.1.2
+[addon-doc-adguard-tailscale]: https://github.com/elcajon/addon-adguard-tailscale/blob/v0.1.2/README.md
+[adguard-tailscale-issue]: https://github.com/elcajon/addon-adguard-tailscale/issues
+[adguard-tailscale-version-shield]: https://img.shields.io/badge/version-v0.1.2-blue.svg
+[adguard-tailscale-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[adguard-tailscale-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[adguard-tailscale-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[adguard-tailscale-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[adguard-tailscale-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-code-server]: https://github.com/elcajon/addon-code-server/tree/v9.5.17
 [addon-doc-code-server]: https://github.com/elcajon/addon-code-server/blob/v9.5.17/README.md
 [code-server-issue]: https://github.com/elcajon/addon-code-server/issues
@@ -101,15 +110,6 @@ SOFTWARE.
 [code-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [code-server-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [code-server-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-tailscale]: https://github.com/elcajon/addon-tailscale/tree/v0.1.2
-[addon-doc-tailscale]: https://github.com/elcajon/addon-tailscale/blob/v0.1.2/README.md
-[tailscale-issue]: https://github.com/elcajon/addon-tailscale/issues
-[tailscale-version-shield]: https://img.shields.io/badge/version-v0.1.2-blue.svg
-[tailscale-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[tailscale-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[tailscale-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[tailscale-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[tailscale-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [issue]: https://github.com/elcajon/repository-stable/issues
 [license-shield]: https://img.shields.io/github/license/elcajon/repository-stable.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
