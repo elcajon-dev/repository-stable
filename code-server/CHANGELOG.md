@@ -1,8 +1,9 @@
 ## What’s changed
-## 🐛 Bug fixes
+## 🧰 Maintenance
 
-- Remove AppDaemon @elcajon (#275)
+- Delete lock.yaml @elcajon (#276)
 
-## ⬆️ Dependency updates
+## 📚 Documentation
 
-- Update to s6-v3 structures @elcajon (#274)
+- Update README.md @elcajon (#277)
+- Update DOCS.md @elcajon (#278)
