@@ -1,9 +1,4 @@
 ## What’s changed
-## 🧰 Maintenance
+## 🐛 Bug fixes
 
-- Delete stale.yaml @elcajon (#17)
-
-## 📚 Documentation
-
-- Remove logo @elcajon (#16)
-- Update README.md @elcajon (#18)
+- Update config.yaml @elcajon (#19)

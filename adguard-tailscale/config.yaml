@@ -14,7 +14,7 @@ discovery:
 hassio_api: true
 hassio_role: manager
 host_network: true
-image: ghcr.io/elcajon/adguard-tailscale/{arch}
+image: ghcr.io/elcajon-tech/adguard-tailscale/{arch}
 ingress: true
 ingress_port: 0
 ingress_stream: true
@@ -33,5 +33,5 @@ schema:
   - match(^tag:[a-zA-Z0-9]+-?[a-zA-Z0-9]+$)?
 slug: adguard-tailscale
 startup: services
-url: https://github.com/elcajon/addon-adguard-tailscale
-version: 0.1.4
+url: https://github.com/elcajon-tech/addon-adguard-tailscale
+version: 0.1.5
