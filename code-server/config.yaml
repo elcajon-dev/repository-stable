@@ -7,7 +7,7 @@ docker_api: true
 hassio_api: true
 hassio_role: manager
 homeassistant_api: true
-image: ghcr.io/elcajon/code-server/{arch}
+image: ghcr.io/elcajon-tech/code-server/{arch}
 ingress: true
 ingress_port: 1337
 ingress_stream: true
@@ -30,5 +30,5 @@ services:
 slug: code-server
 startup: services
 uart: true
-url: https://github.com/elcajon/addon-code-server
-version: 9.5.19
+url: https://github.com/elcajon-tech/addon-code-server
+version: 9.5.20
