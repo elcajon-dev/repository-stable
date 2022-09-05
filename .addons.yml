@@ -2,10 +2,10 @@
 channel: stable
 addons:
   code-server:
-    repository: elcajon/addon-code-server
+    repository: elcajon-tech/addon-code-server
     target: code-server
-    image: ghcr.io/elcajon/code-server/{arch}
+    image: ghcr.io/elcajon-tech/code-server/{arch}
   adguard-tailscale:
-    repository: elcajon/addon-adguard-tailscale
+    repository: elcajon-tech/addon-adguard-tailscale
     target: adguard-tailscale
-    image: ghcr.io/elcajon/adguard-tailscale/{arch}
+    image: ghcr.io/elcajon-tech/adguard-tailscale/{arch}
