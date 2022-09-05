@@ -1,8 +1,9 @@
 ## What’s changed
-## 🚀 Enhancements
+## 🧰 Maintenance
 
-- Add Adguard Home @elcajon (#15)
+- Delete stale.yaml @elcajon (#17)
 
-## ⬆️ Dependency updates
+## 📚 Documentation
 
-- ⬆️ Update AdguardTeam/AdGuardHome to version v0.107.11 @elcajon-bot (#13)
+- Remove logo @elcajon (#16)
+- Update README.md @elcajon (#18)
