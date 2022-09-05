@@ -1,4 +1,4 @@
 ## What’s changed
-## 🐛 Bug fixes
+## 🧰 Maintenance
 
-- Update config.yaml @elcajon (#279)
+- Update Token @elcajon (#280)
