@@ -1,4 +1,8 @@
 ## What’s changed
-## 🐛 Bug fixes
+## 🧰 Maintenance
 
-- Update config.yaml @elcajon (#19)
+- Update deploy.yaml @elcajon (#22)
+
+## 📚 Documentation
+
+- Update README.md @elcajon (#21)
