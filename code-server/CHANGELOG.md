@@ -1,9 +1,8 @@
 ## What’s changed
-## 🚀 Enhancements
+## 🧰 Maintenance
 
-- Updates @elcajon (#283)
+- Remove Auto Approve CI @elcajon (#285)
 
 ## ⬆️ Dependency updates
 
-- Bump esphome from 2022.8.1 to 2022.8.2 in /code-server @dependabot (#281)
-- Bump esphome from 2022.8.2 to 2022.8.3 in /code-server @dependabot (#282)
+- ⬆️ Update cloudflare/cloudflared to version 2022.9.0 @elcajon-bot (#284)
