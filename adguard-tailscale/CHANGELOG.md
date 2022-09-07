@@ -1,8 +1,8 @@
 ## What’s changed
 ## 🧰 Maintenance
 
-- Update deploy.yaml @elcajon (#22)
+- Remove Auto Approve CI @elcajon (#24)
 
-## 📚 Documentation
+## ⬆️ Dependency updates
 
-- Update README.md @elcajon (#21)
+- ⬆️ Update AdguardTeam/AdGuardHome to version v0.107.12 @elcajon-bot (#23)
