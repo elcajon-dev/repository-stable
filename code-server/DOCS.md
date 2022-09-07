@@ -75,8 +75,6 @@ when the add-on starts.
 For example: `services.d/my-service/run` will spin up a service called `my-service`
 Place your service logic in the file called `run`.
 
-Take a look [here][sample-folder] for some sample scripts and services.
-
 **Note**: _Please be aware that this is a really powerful function which can damage
 your whole system if handled incorrectly._
 
@@ -98,5 +96,4 @@ return to the defaults as delivered by this add-on, do the following:
 [my-ha-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 [my-ha-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Felcajon-tech%2Frepository-stable
 [ha-addons]: https://github.com/elcajon-tech/repository-stable
-[sample-folder]: https://github.com/elcajon-tech/addon-code-server/tree/main/sample-scripts
 [hassio-addons]: https://github.com/hassio-addons/addon-vscode
