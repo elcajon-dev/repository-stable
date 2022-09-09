@@ -1,8 +1,5 @@
 ## What’s changed
-## 🧰 Maintenance
-
-- Remove Auto Approve CI @elcajon (#24)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update AdguardTeam/AdGuardHome to version v0.107.12 @elcajon-bot (#23)
+- ⬆️ Update yq to 4.25.1-r4 @elcajon (#26)
+- ⬆️ Update tailscale/tailscale to version v1.30.1 @elcajon-bot (#25)
