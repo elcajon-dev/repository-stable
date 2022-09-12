@@ -19,6 +19,13 @@ ingress: true
 ingress_port: 0
 ingress_stream: true
 init: false
+map:
+- config:rw
+- ssl:rw
+- addons:rw
+- media:rw
+- share:rw
+- backup:rw
 name: Adguard & Tailscale
 panel_icon: mdi:shield-check
 ports:
@@ -34,4 +41,4 @@ schema:
 slug: adguard-tailscale
 startup: services
 url: https://github.com/elcajon-tech/addon-adguard-tailscale
-version: 0.1.8
+version: 0.1.9
