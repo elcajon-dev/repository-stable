@@ -1,4 +1,4 @@
 ## What’s changed
 ## 🐛 Bug fixes
 
-- Update tailscale-up @elcajon (#28)
+- Remove SSH @elcajon (#29)
