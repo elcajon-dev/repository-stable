@@ -1,4 +1,4 @@
 ## What’s changed
-## 🚀 Enhancements
+## 🐛 Bug fixes
 
-- Enable Tailscale SSH and map HA folders @elcajon (#27)
+- Update tailscale-up @elcajon (#28)
