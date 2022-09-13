@@ -1,7 +1,7 @@
 arch:
 - aarch64
 - amd64
-codenotary: agonist02_stiel@icloud.com
+codenotary: codenotary@elcajon.dev
 description: Code Server experience integrated in the Home Assistant frontend.
 docker_api: true
 hassio_api: true
@@ -31,4 +31,4 @@ slug: code-server
 startup: services
 uart: true
 url: https://github.com/elcajon-tech/addon-code-server
-version: 0.1.1
+version: 0.1.2
