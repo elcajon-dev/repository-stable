@@ -5,7 +5,7 @@ arch:
 - armv7
 - i386
 auth_api: true
-codenotary: agonist02_stiel@icloud.com
+codenotary: codenotary@elcajon.dev
 description: Zero config VPN and network wide ad-blocking
 devices:
 - /dev/net/tun
@@ -34,4 +34,4 @@ schema:
 slug: adguard-tailscale
 startup: services
 url: https://github.com/elcajon-tech/addon-adguard-tailscale
-version: 0.2.0
+version: 0.2.1
