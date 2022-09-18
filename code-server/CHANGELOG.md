@@ -1,6 +1,8 @@
 ## What’s changed
+## 🐛 Bug fixes
+
+- 🧰 Remove Workaround for s6-supervisor @elcajon (#12)
+
 ## ⬆️ Dependency updates
 
-- Bump frenck/action-yamllint from 1.2 to 1.3 @dependabot (#8)
-- ⬆️ Update rclone/rclone to version v1.59.2 @elcajon-bot (#9)
-- ⬆️ Update tailscale/tailscale to version v1.30.2 @elcajon-bot (#10)
+- ⬆️ Update base image to v6.1.2 @elcajon (#11)
