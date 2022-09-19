@@ -29,6 +29,7 @@ services:
 - mqtt:want
 slug: code-server
 startup: services
+stdin: true
 uart: true
 url: https://github.com/elcajon-tech/addon-code-server
-version: 0.1.4
+version: 0.1.5
