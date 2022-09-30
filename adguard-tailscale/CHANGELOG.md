@@ -1,4 +1,4 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update base-image to v12.2.4 @elcajon (#35)
+- ⬆️ Update AdguardTeam/AdGuardHome to version v0.107.14 @elcajon-bot (#37)
