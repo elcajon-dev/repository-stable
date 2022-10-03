@@ -1,4 +1,4 @@
 ## What’s changed
-## ⬆️ Dependency updates
+## 🚀 Enhancements
 
-- ⬆️ Update AdguardTeam/AdGuardHome to version v0.107.14 @elcajon-bot (#37)
+- Add additional network interfaces @elcajon (#38)
