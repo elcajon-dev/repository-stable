@@ -1,5 +1,4 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- Bump esphome from 2022.9.1 to 2022.9.2 in /code-server @dependabot (#18)
-- ⬆️ Update coder/code-server to version v4.7.1 @elcajon-bot (#19)
+- ⬆️ Update cloudflare/cloudflared to version 2022.10.0 @elcajon-bot (#20)
