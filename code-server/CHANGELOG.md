@@ -1,6 +1,8 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update mikefarah/yq to version v4.28.1 @elcajon-bot (#21)
-- Bump esphome from 2022.9.2 to 2022.9.3 in /code-server @dependabot (#22)
-- Bump esphome from 2022.9.3 to 2022.9.4 in /code-server @dependabot (#23)
+- Bump docker/setup-qemu-action from 2.0.0 to 2.1.0 @dependabot (#24)
+- Bump docker/login-action from 2.0.0 to 2.1.0 @dependabot (#25)
+- Bump docker/build-push-action from 3.1.1 to 3.2.0 @dependabot (#26)
+- Bump docker/setup-buildx-action from 2.0.0 to 2.1.0 @dependabot (#27)
+- ⬆️ Update tailscale/tailscale to version v1.32.0 @elcajon-bot (#28)
