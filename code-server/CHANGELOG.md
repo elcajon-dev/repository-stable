@@ -1,4 +1,8 @@
 ## What’s changed
-## 🐛 Bug fixes
+## 🚀 Enhancements
 
-- Bugfix Caddy path @elcajon (#38)
+- Symlink Tailscale & Tailscaled to /usr/local/bin @elcajon (#39)
+
+## 🧰 Maintenance
+
+- Yamllint & set-output CI @elcajon (#40)
