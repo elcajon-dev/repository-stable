@@ -34,4 +34,4 @@ schema:
 slug: adguard-tailscale
 startup: services
 url: https://github.com/elcajon-tech/addon-adguard-tailscale
-version: 0.2.9
+version: 0.2.10
