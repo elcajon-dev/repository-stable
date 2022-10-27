@@ -1,4 +1,4 @@
 ## What’s changed
-## 🧰 Maintenance
+## ⬆️ Dependency updates
 
-- Disable line-length @elcajon (#56)
+- ⬆️ Update tailscale/tailscale to version v1.32.2 @elcajon-bot (#57)
