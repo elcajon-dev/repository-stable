@@ -51,6 +51,19 @@ Code Server experience integrated in the Home Assistant frontend.
 
 [:books: Advanced Code Server add-on documentation][addon-doc-code-server]
 
+### &#10003; [NextDNS Router][addon-nextdns]
+
+![Latest Version][nextdns-version-shield]
+![Supports armhf Architecture][nextdns-armhf-shield]
+![Supports armv7 Architecture][nextdns-armv7-shield]
+![Supports aarch64 Architecture][nextdns-aarch64-shield]
+![Supports amd64 Architecture][nextdns-amd64-shield]
+![Supports i386 Architecture][nextdns-i386-shield]
+
+NextDNS router for network wide ad-blocking
+
+[:books: NextDNS Router add-on documentation][addon-doc-nextdns]
+
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
@@ -67,6 +80,7 @@ Got questions?
 
 - [Open an issue for the add-on: Adguard & Tailscale][adguard-tailscale-issue]
 - [Open an issue for the add-on: Advanced Code Server][code-server-issue]
+- [Open an issue for the add-on: NextDNS Router][nextdns-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -110,6 +124,15 @@ SOFTWARE.
 [code-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [code-server-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [code-server-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-nextdns]: https://github.com/elcajon-tech/addon-nextdns/tree/7695eea
+[addon-doc-nextdns]: https://github.com/elcajon-tech/addon-nextdns/blob/7695eea/README.md
+[nextdns-issue]: https://github.com/elcajon-tech/addon-nextdns/issues
+[nextdns-version-shield]: https://img.shields.io/badge/version-7695eea-blue.svg
+[nextdns-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[nextdns-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[nextdns-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[nextdns-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[nextdns-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [issue]: https://github.com/elcajon-tech/repository-stable/issues
 [license-shield]: https://img.shields.io/github/license/elcajon-tech/repository-stable.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
