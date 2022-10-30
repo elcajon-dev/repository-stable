@@ -124,10 +124,10 @@ SOFTWARE.
 [code-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [code-server-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [code-server-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-nextdns]: https://github.com/elcajon-tech/addon-nextdns/tree/7695eea
-[addon-doc-nextdns]: https://github.com/elcajon-tech/addon-nextdns/blob/7695eea/README.md
+[addon-nextdns]: https://github.com/elcajon-tech/addon-nextdns/tree/v0.1.0
+[addon-doc-nextdns]: https://github.com/elcajon-tech/addon-nextdns/blob/v0.1.0/README.md
 [nextdns-issue]: https://github.com/elcajon-tech/addon-nextdns/issues
-[nextdns-version-shield]: https://img.shields.io/badge/version-7695eea-blue.svg
+[nextdns-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
 [nextdns-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [nextdns-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [nextdns-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
