@@ -1,4 +1,4 @@
 ## What’s changed
-## 📚 Documentation
+## 🚀 Enhancements
 
-- Update Documentation @elcajon (#3)
+- Update hassio role @elcajon (#4)
