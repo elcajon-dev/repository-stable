@@ -67,6 +67,49 @@ instance. They need to start with `tag:`.
 
 More information: <https://tailscale.com/kb/1068/acl-tags/>
 
+### Option: `enable_proxy`
+
+If enabled your instance will be available through a Tailscale issued
+domain. HTTPS support needs to be enabled from Tailscale DNS settings.
+
+Make sure to enable HTTPS support for your Tailscale otherwise the add-on
+won't start. This option needs to be enabled in Tailscale DNS settings.
+
+<https://tailscale.com/kb/1153/enabling-https/>
+
+Since Home Assistant blocks requests from proxies/reverse proxies, you need to
+tell your instance to allow requests from the Cloudflared add-on.
+In order to do so, add the following lines to your `/config/configuration.yaml`
+adapt the IP to your local instance IP:
+
+**Note**: _There is no need to adapt anything in these lines since the IP range
+of the docker network is always the same._
+
+```yaml
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 192.168.0.10
+```
+
+### Option: `enable_proxy`
+
+Enable this option to allow clients to connect to your instance via SSH.
+The add-on has all configuration folders
+(`config`,`backup`,`media`,`share`,`ssl`,`addons`) mapped read-only.
+
+See the Tailscale documentation for further information:
+
+<https://tailscale.com/kb/1193/tailscale-ssh/>
+
+### Option: `enable_exit_node`
+
+Enable this option to advertise this instance as exit node.
+
+### Option: `enable_subnets`
+
+Enable this option to advertise local subnets.
+
 ### Option: `log_level`
 
 The `log_level` option controls the level of log output by the addon and can

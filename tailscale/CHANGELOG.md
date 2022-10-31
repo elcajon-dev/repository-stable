@@ -1,6 +1,4 @@
 ## What’s changed
-- Initial add-on config @elcajon (#1)
+## 📚 Documentation
 
-## 🧰 Maintenance
-
-- Update CI @elcajon (#2)
+- Update Documentation @elcajon (#3)

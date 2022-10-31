@@ -1,0 +1,31 @@
+---
+configuration:
+  log_level:
+    name: Log Level
+    description: >-
+      Defines the log level for add-on.
+  tags:
+    name: Add ACL tags for this Tailscale instance.
+    description: >-
+      This option allows you to specify specific ACL tags for this
+      Tailscale instance.
+  enable_proxy:
+    name: Enable Caddy proxy to access Home Assistant from Tailscale domain.
+    description: >-
+      If enabled your instance will be available through a Tailscale issued
+      domain. HTTPS support needs to be enabled from Tailscale DNS settings.
+  enable_ssh:
+    name: Enable Tailscale SSH
+    description: >-
+      Your instance will be available via Tailscale SSH.
+  enable_exit_node:
+    name: Advertise Exit Node
+    description: >-
+      Enable this option to set up this instance as exit node. Other Tailscale
+      instances will be able to route traffic through this instance.
+  enable_subnets:
+    name: Advertise Subnets
+    description: >-
+      Enable this option if you want your local networks to be exposted with
+      Tailscale. Other Tailscale instances will be able to route traffic to
+      this subnets through this instance.
