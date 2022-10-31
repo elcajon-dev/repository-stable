@@ -64,6 +64,19 @@ NextDNS router for network wide ad-blocking
 
 [:books: NextDNS Router add-on documentation][addon-doc-nextdns]
 
+### &#10003; [Tailscale][addon-tailscale]
+
+![Latest Version][tailscale-version-shield]
+![Supports armhf Architecture][tailscale-armhf-shield]
+![Supports armv7 Architecture][tailscale-armv7-shield]
+![Supports aarch64 Architecture][tailscale-aarch64-shield]
+![Supports amd64 Architecture][tailscale-amd64-shield]
+![Supports i386 Architecture][tailscale-i386-shield]
+
+Zero config VPN for building secure networks
+
+[:books: Tailscale add-on documentation][addon-doc-tailscale]
+
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
@@ -81,6 +94,7 @@ Got questions?
 - [Open an issue for the add-on: Adguard & Tailscale][adguard-tailscale-issue]
 - [Open an issue for the add-on: Advanced Code Server][code-server-issue]
 - [Open an issue for the add-on: NextDNS Router][nextdns-issue]
+- [Open an issue for the add-on: Tailscale][tailscale-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -133,6 +147,15 @@ SOFTWARE.
 [nextdns-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [nextdns-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [nextdns-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-tailscale]: https://github.com/elcajon-tech/addon-tailscale/tree/7506db4
+[addon-doc-tailscale]: https://github.com/elcajon-tech/addon-tailscale/blob/7506db4/README.md
+[tailscale-issue]: https://github.com/elcajon-tech/addon-tailscale/issues
+[tailscale-version-shield]: https://img.shields.io/badge/version-7506db4-blue.svg
+[tailscale-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[tailscale-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[tailscale-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[tailscale-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[tailscale-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [issue]: https://github.com/elcajon-tech/repository-stable/issues
 [license-shield]: https://img.shields.io/github/license/elcajon-tech/repository-stable.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
