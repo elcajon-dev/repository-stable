@@ -13,3 +13,7 @@ addons:
     repository: elcajon-tech/addon-nextdns
     target: nextdns
     image: ghcr.io/elcajon-tech/nextdns/{arch}
+  tailscale:
+    repository: elcajon-tech/addon-tailscale
+    target: tailscale
+    image: ghcr.io/elcajon-tech/tailscale/{arch}
