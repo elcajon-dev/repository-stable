@@ -1,31 +1,32 @@
----
-name: Tailscale
-version: 7506db4
-slug: tailscale
-description: Zero config VPN for building secure networks
-url: https://github.com/elcajon-tech/addon-tailscale
+arch:
+- aarch64
+- amd64
 codenotary: codenotary@elcajon.dev
+description: Zero config VPN for building secure networks
+devices:
+- /dev/net/tun
+hassio_api: true
+host_network: true
+image: ghcr.io/elcajon-tech/tailscale/{arch}
 ingress: true
 ingress_port: 0
 ingress_stream: true
-startup: services
-panel_icon: mdi:vpn
-arch:
-  - aarch64
-  - amd64
 init: false
-hassio_api: true
-privileged:
-  - NET_ADMIN
-devices:
-  - /dev/net/tun
-host_network: true
 map:
-  - config:ro
-  - share:ro
-  - backup:ro
-  - media:ro
-  - addons:ro
+- config:ro
+- share:ro
+- backup:ro
+- media:ro
+- addons:ro
+name: Tailscale
+panel_icon: mdi:vpn
+privileged:
+- NET_ADMIN
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
-  tags: ["match(^tag:[a-zA-Z0-9]-?[a-zA-Z0-9]+$)?"]
+  tags:
+  - match(^tag:[a-zA-Z0-9]-?[a-zA-Z0-9]+$)?
+slug: tailscale
+startup: services
+url: https://github.com/elcajon-tech/addon-tailscale
+version: 0.1.0
