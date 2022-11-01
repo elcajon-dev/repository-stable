@@ -9,10 +9,6 @@ addons:
     repository: elcajon-tech/addon-adguard-tailscale
     target: adguard-tailscale
     image: ghcr.io/elcajon-tech/adguard-tailscale/{arch}
-  nextdns:
-    repository: elcajon-tech/addon-nextdns
-    target: nextdns
-    image: ghcr.io/elcajon-tech/nextdns/{arch}
   tailscale:
     repository: elcajon-tech/addon-tailscale
     target: tailscale
