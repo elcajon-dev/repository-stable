@@ -1,5 +1,5 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update coder/code-server to version v4.8.1 @elcajon-bot (#45)
-- ⬆️ Update mikefarah/yq to version v4.29.1 @elcajon-bot (#46)
+- ⬆️ Update mikefarah/yq to version v4.29.2 @elcajon-bot (#47)
+- ⬆️ Update home-assistant/cli to version 4.22.0 @elcajon-bot (#48)
