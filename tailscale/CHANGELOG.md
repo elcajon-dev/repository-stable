@@ -1,4 +1,4 @@
 ## What’s changed
-## 🚀 Enhancements
+## ⬆️ Dependency updates
 
-- Update hassio role @elcajon (#4)
+- ⬆️ Upgrade base image to v12.2.5 @elcajon (#5)
