@@ -17,10 +17,26 @@ the following URL:
 
 <https://login.tailscale.com/start>
 
-Make sure to enable HTTPS support for your Tailscale otherwise the add-on
-won't start. This option needs to be enabled in Tailscale DNS settings.
+If you want to use the build in proxy server powered by Caddy,
+make sure to enable HTTPS support for your Tailnet.
+This option needs to be enabled in Tailscale DNS settings.
 
 <https://tailscale.com/kb/1153/enabling-https/>
+
+Since Home Assistant blocks requests from proxies/reverse proxies, you need to
+tell your instance to allow requests from the Cloudflared add-on.
+In order to do so, add the following lines to your `/config/configuration.yaml`
+without changing anything:
+
+```yaml
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 172.30.32.0/23
+```
+
+**Note**: _There is no need to adapt anything in these lines since the IP range
+of the docker network is always the same._
 
 ## Installation
 
@@ -67,36 +83,11 @@ instance. They need to start with `tag:`.
 
 More information: <https://tailscale.com/kb/1068/acl-tags/>
 
-### Option: `enable_proxy`
-
-If enabled your instance will be available through a Tailscale issued
-domain. HTTPS support needs to be enabled from Tailscale DNS settings.
-
-Make sure to enable HTTPS support for your Tailscale otherwise the add-on
-won't start. This option needs to be enabled in Tailscale DNS settings.
-
-<https://tailscale.com/kb/1153/enabling-https/>
-
-Since Home Assistant blocks requests from proxies/reverse proxies, you need to
-tell your instance to allow requests from the Cloudflared add-on.
-In order to do so, add the following lines to your `/config/configuration.yaml`
-adapt the IP to your local instance IP:
-
-**Note**: _There is no need to adapt anything in these lines since the IP range
-of the docker network is always the same._
-
-```yaml
-http:
-  use_x_forwarded_for: true
-  trusted_proxies:
-    - 192.168.0.10
-```
-
-### Option: `enable_proxy`
+### Option: `enable_ssh`
 
 Enable this option to allow clients to connect to your instance via SSH.
 The add-on has all configuration folders
-(`config`,`backup`,`media`,`share`,`ssl`,`addons`) mapped read-only.
+(`config`,`backup`,`media`,`share`,`ssl`,`addons`) mapped.
 
 See the Tailscale documentation for further information:
 

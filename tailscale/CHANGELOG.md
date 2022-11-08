@@ -1,4 +1,8 @@
 ## What’s changed
-## ⬆️ Dependency updates
+## ✨ New features
 
-- ⬆️ update base image to v12.2.6 @elcajon (#6)
+- Map all HA folders with write access @elcajon (#7)
+
+## 🚀 Enhancements
+
+- Update caddy proxy logic @elcajon (#8)
