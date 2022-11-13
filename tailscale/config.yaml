@@ -1,6 +1,8 @@
 arch:
 - aarch64
 - amd64
+- armhf
+- armv7
 codenotary: codenotary@elcajon.dev
 description: Zero config VPN for building secure networks
 devices:
@@ -31,4 +33,4 @@ schema:
 slug: tailscale
 startup: services
 url: https://github.com/elcajon-tech/addon-tailscale
-version: 0.2.0
+version: 0.3.0

@@ -1,8 +1,8 @@
 ## What’s changed
 ## ✨ New features
 
-- Map all HA folders with write access @elcajon (#7)
+- Add armhf & armv7 archs @elcajon (#10)
 
-## 🚀 Enhancements
+## 📚 Documentation
 
-- Update caddy proxy logic @elcajon (#8)
+- Remove unused proxy option @elcajon (#9)

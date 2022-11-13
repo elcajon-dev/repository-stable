@@ -9,11 +9,6 @@ configuration:
     description: >-
       This option allows you to specify specific ACL tags for this
       Tailscale instance.
-  enable_proxy:
-    name: Enable Caddy proxy to access Home Assistant from Tailscale domain.
-    description: >-
-      If enabled your instance will be available through a Tailscale issued
-      domain. HTTPS support needs to be enabled from Tailscale DNS settings.
   enable_ssh:
     name: Enable Tailscale SSH
     description: >-
