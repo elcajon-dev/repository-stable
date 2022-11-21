@@ -1,8 +1,4 @@
 ## What’s changed
-## ✨ New features
+## ⬆️ Dependency updates
 
-- Add armhf & armv7 archs @elcajon (#10)
-
-## 📚 Documentation
-
-- Remove unused proxy option @elcajon (#9)
+- ⬆️ Update tailscale/tailscale to version v1.32.3 @elcajon-bot (#12)
