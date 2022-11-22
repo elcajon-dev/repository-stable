@@ -32,6 +32,6 @@ Please be aware that when misused you can destroy your whole system with this ad
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v0.2.7-blue.svg
-[release]: https://github.com/elcajon-tech/addon-code-server/tree/v0.2.7
+[release-shield]: https://img.shields.io/badge/version-v0.2.8-blue.svg
+[release]: https://github.com/elcajon-tech/addon-code-server/tree/v0.2.8
 [hassio-addons]: https://github.com/hassio-addons/addon-vscode
