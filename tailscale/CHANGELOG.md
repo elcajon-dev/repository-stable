@@ -1,4 +1,4 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to version v1.34.0 @elcajon-bot (#15)
+- ⬆️ Update base image to v13.0.0 @elcajon (#17)
