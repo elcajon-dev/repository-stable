@@ -1,4 +1,4 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to version v1.34.1 @elcajon-bot (#18)
+- Bump actionshub/markdownlint from 2.0.2 to 2.1.2 @dependabot (#19)
