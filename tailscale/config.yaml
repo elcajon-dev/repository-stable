@@ -3,11 +3,13 @@ arch:
 - amd64
 - armhf
 - armv7
+- i386
 codenotary: codenotary@elcajon.dev
 description: Zero config VPN for building secure networks
 devices:
 - /dev/net/tun
 hassio_api: true
+host_network: true
 image: ghcr.io/elcajon-tech/tailscale/{arch}
 ingress: true
 ingress_stream: true
@@ -20,11 +22,17 @@ map:
 - addons:rw
 - ssl:rw
 name: Tailscale
+options:
+  enable_exit_node: false
+  enable_funnel: false
+  enable_ssh: false
+  enable_subnets: false
 panel_icon: mdi:vpn
 privileged:
 - NET_ADMIN
 schema:
   enable_exit_node: bool?
+  enable_funnel: bool?
   enable_ssh: bool?
   enable_subnets: bool?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
@@ -33,4 +41,4 @@ schema:
 slug: tailscale
 startup: services
 url: https://github.com/elcajon-tech/addon-tailscale
-version: 0.3.6
+version: 0.4.0

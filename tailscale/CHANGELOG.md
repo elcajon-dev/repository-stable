@@ -1,4 +1,4 @@
 ## What’s changed
-## ⬆️ Dependency updates
+## ✨ New features
 
-- Bump actionshub/markdownlint from 2.0.2 to 2.1.2 @dependabot (#19)
+- Add Tailscale Funnel @elcajon (#20)

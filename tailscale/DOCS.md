@@ -17,14 +17,14 @@ the following URL:
 
 <https://login.tailscale.com/start>
 
-If you want to use the build in proxy server powered by Caddy,
+If you want to use the build in proxy server,
 make sure to enable HTTPS support for your Tailnet.
 This option needs to be enabled in Tailscale DNS settings.
 
 <https://tailscale.com/kb/1153/enabling-https/>
 
 Since Home Assistant blocks requests from proxies/reverse proxies, you need to
-tell your instance to allow requests from the Cloudflared add-on.
+tell your instance to allow requests from the Tailscale add-on.
 In order to do so, add the following lines to your `/config/configuration.yaml`
 without changing anything:
 
@@ -32,11 +32,11 @@ without changing anything:
 http:
   use_x_forwarded_for: true
   trusted_proxies:
-    - 172.30.32.0/23
+    - 127.0.0.1
 ```
 
-**Note**: _There is no need to adapt anything in these lines since the IP range
-of the docker network is always the same._
+**Note**: _There is no need to adapt anything in these lines since the addon
+runs on your host network._
 
 ## Installation
 
@@ -100,6 +100,29 @@ Enable this option to advertise this instance as exit node.
 ### Option: `enable_subnets`
 
 Enable this option to advertise local subnets.
+
+### Option: `enable_funnel`
+
+Enable this option to externally access your instance using your Tailscale
+domain. (like `https://homeassistant.furing-otter.ts.net`)
+
+If this option is disabled, you still will be able to access your Home Assistant
+instance while locally connected to your Tailscale account.
+
+Check the prerequisites part at the beginning
+of this documentation before moving on with the steps below.
+
+Before you can enable the Funnel feature for the addon,
+you need to assign the necessary ACL `nodeAttrs`.
+
+Check the following Tailscale guide on how to achieve this:
+<https://tailscale.com/kb/1223/tailscale-funnel/#setup>
+
+**Note**: _After initial set up it can take up to 10 minutes for the domain to
+be publicly available. You can use the `dig` command (Linux/MacOS) to regulary
+check if an A-record is already present for your domain
+(`dig homeassistant.YOUR-TS-DOMAIN.ts.net +short` should return an IP address
+once the record is published)._
 
 ### Option: `log_level`
 
