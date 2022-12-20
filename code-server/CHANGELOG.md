@@ -1,8 +1,12 @@
 ## What’s changed
+## 🧰 Maintenance
+
+- Update GitHub get release action @elcajon (#84)
+- Downgrade test @elcajon (#85)
+- Update CI @elcajon (#87)
+
 ## ⬆️ Dependency updates
 
-- Bump esphome from 2022.12.0 to 2022.12.1 in /code-server @dependabot (#78)
-- ⬆️ Update coder/code-server to version v4.9.1 @elcajon-bot (#79)
-- ⬆️ Update aptitude dependencies to latest version @elcajon (#81)
-- ⬆️ Update mikefarah/yq to version v4.30.6 @elcajon-bot (#80)
-- Bump actionshub/markdownlint from 2.0.2 to 2.1.2 @dependabot (#77)
+- ⬆️ Update cloudflare/cloudflared to version 2022.12.0 @elcajon-bot (#82)
+- Bump esphome from 2022.12.1 to 2022.12.2 in /code-server @dependabot (#83)
+- ⬆️ Update coder/code-server to version v4.9.1 @elcajon-bot (#86)
