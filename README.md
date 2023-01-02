@@ -112,6 +112,6 @@ SOFTWARE.
 [tailscale-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [issue]: https://github.com/elcajon-tech/repository-stable/issues
 [license-shield]: https://img.shields.io/github/license/elcajon-tech/repository-stable.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [semver]: http://semver.org/spec/v2.0.0.html
