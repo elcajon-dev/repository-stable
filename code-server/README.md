@@ -30,8 +30,8 @@ For example:
 
 Please be aware that when misused you can destroy your whole system with this add-on.
 
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v0.2.17-blue.svg
-[release]: https://github.com/elcajon-tech/addon-code-server/tree/v0.2.17
+[release-shield]: https://img.shields.io/badge/version-v0.2.18-blue.svg
+[release]: https://github.com/elcajon-tech/addon-code-server/tree/v0.2.18
 [hassio-addons]: https://github.com/hassio-addons/addon-vscode
