@@ -12,7 +12,7 @@ Even when separated by firewalls or subnets, Tailscale just works. Tailscale
 manages firewall rules for you, and works from anywhere you are.
 
 
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v0.4.2-blue.svg
-[release]: https://github.com/elcajon-tech/addon-tailscale/tree/v0.4.2
+[release-shield]: https://img.shields.io/badge/version-v0.4.3-blue.svg
+[release]: https://github.com/elcajon-tech/addon-tailscale/tree/v0.4.3

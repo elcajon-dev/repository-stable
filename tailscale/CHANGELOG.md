@@ -1,4 +1,4 @@
 ## What’s changed
 ## 🧰 Maintenance
 
-- Romove test data @elcajon (#31)
+- Update maintenance to 2023 @elcajon (#33)
