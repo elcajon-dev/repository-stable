@@ -1,5 +1,6 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- Bump frenck/action-addon-information from 1.4.1 to 1.4.2 @dependabot (#34)
-- ⬆️ Update tailscale/tailscale to version v1.34.2 @elcajon-bot (#35)
+- Bump frenck/action-yamllint from 1.3 to 1.4 @dependabot (#36)
+- Update base image to v13.1.0 @elcajon (#37)
+- Bump docker/build-push-action from 3.2.0 to 3.3.0 @dependabot (#38)
