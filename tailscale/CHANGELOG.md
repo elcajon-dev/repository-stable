@@ -1,6 +1,7 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- Bump frenck/action-addon-linter from 2.10 to 2.11 @dependabot (#39)
-- Update base image to v13.1.1 @elcajon (#40)
-- ⬆️ Update tailscale/tailscale to version v1.36.0 @elcajon-bot (#41)
+- Bump docker/setup-buildx-action from 2.2.1 to 2.3.0 @dependabot (#42)
+- Bump ludeeus/action-shellcheck from 1.1.0 to 2.0.0 @dependabot (#43)
+- Bump docker/build-push-action from 3.3.0 to 4.0.0 @dependabot (#44)
+- Bump docker/setup-buildx-action from 2.3.0 to 2.4.0 @dependabot (#45)
