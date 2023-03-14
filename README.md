@@ -38,6 +38,19 @@ Code Server experience integrated in the Home Assistant frontend.
 
 [:books: Advanced Code Server add-on documentation][addon-doc-code-server]
 
+### &#10003; [Mosquitto & Tailscale][addon-mosquitto-tailscale]
+
+![Latest Version][mosquitto-tailscale-version-shield]
+![Supports armhf Architecture][mosquitto-tailscale-armhf-shield]
+![Supports armv7 Architecture][mosquitto-tailscale-armv7-shield]
+![Supports aarch64 Architecture][mosquitto-tailscale-aarch64-shield]
+![Supports amd64 Architecture][mosquitto-tailscale-amd64-shield]
+![Supports i386 Architecture][mosquitto-tailscale-i386-shield]
+
+Open source MQTT broker combined with zero config VPN
+
+[:books: Mosquitto & Tailscale add-on documentation][addon-doc-mosquitto-tailscale]
+
 ### &#10003; [Tailscale][addon-tailscale]
 
 ![Latest Version][tailscale-version-shield]
@@ -66,6 +79,7 @@ based on the following:
 Got questions?
 
 - [Open an issue for the add-on: Advanced Code Server][code-server-issue]
+- [Open an issue for the add-on: Mosquitto & Tailscale][mosquitto-tailscale-issue]
 - [Open an issue for the add-on: Tailscale][tailscale-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
@@ -101,6 +115,15 @@ SOFTWARE.
 [code-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [code-server-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [code-server-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-mosquitto-tailscale]: https://github.com/elcajon-tech/addon-mosquitto-tailscale/tree/123293e
+[addon-doc-mosquitto-tailscale]: https://github.com/elcajon-tech/addon-mosquitto-tailscale/blob/123293e/README.md
+[mosquitto-tailscale-issue]: https://github.com/elcajon-tech/addon-mosquitto-tailscale/issues
+[mosquitto-tailscale-version-shield]: https://img.shields.io/badge/version-123293e-blue.svg
+[mosquitto-tailscale-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[mosquitto-tailscale-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[mosquitto-tailscale-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[mosquitto-tailscale-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[mosquitto-tailscale-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-tailscale]: https://github.com/elcajon-tech/addon-tailscale/tree/v0.4.11
 [addon-doc-tailscale]: https://github.com/elcajon-tech/addon-tailscale/blob/v0.4.11/README.md
 [tailscale-issue]: https://github.com/elcajon-tech/addon-tailscale/issues
