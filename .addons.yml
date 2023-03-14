@@ -9,3 +9,7 @@ addons:
     repository: elcajon-tech/addon-tailscale
     target: tailscale
     image: ghcr.io/elcajon-tech/tailscale/{arch}
+  mosquitto-tailscale:
+    repository: elcajon-tech/addon-mosquitto-tailscale
+    target: mosquitto-tailscale
+    image: ghcr.io/elcajon-tech/mosquitto-tailscale/{arch}
