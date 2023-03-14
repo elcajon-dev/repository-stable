@@ -1,0 +1,21 @@
+---
+configuration:
+  logins:
+    name: Logins
+    description: >-
+      A list of local users that will be created with username and password. You
+      don't need to do this because you can use Home Assistant users too,
+      without any configuration.
+  log_level:
+    name: Log Level
+    description: >-
+      Defines the log level for add-on.
+  enable_tailscale_ssh:
+    name: Enable Tailscale SSH
+    description: >-
+      Your instance will be available via Tailscale SSH.
+  tailscale_authkey:
+    name: Tailscale Auth-Key
+    description: >-
+      Create an auth key to connect to your tailnet without any configuration
+      necessary. See https://tailscale.com/kb/1085/auth-keys
