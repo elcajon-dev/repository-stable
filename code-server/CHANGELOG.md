@@ -1,4 +1,5 @@
 ## What’s changed
-## ✨ New features
+## ⬆️ Dependency updates
 
-- Add php and php-curl @elcajon (#142)
+- ⬆️ Update rclone/rclone to version v1.62.0 @elcajon-bot (#146)
+- ⬆️ Update tailscale/tailscale to version v1.38.1 @elcajon-bot (#147)
