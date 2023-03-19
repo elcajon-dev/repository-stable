@@ -1,8 +1,4 @@
 ## What’s changed
-## 🐛 Bug fixes
+## ✨ New features
 
-- Update coding to v1.38.0 @elcajon (#60)
-
-## ⬆️ Dependency updates
-
-- ⬆️ Update tailscale/tailscale to version v1.38.1 @elcajon-bot (#59)
+- Add auth_key option @elcajon (#61)

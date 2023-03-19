@@ -124,6 +124,15 @@ check if an A-record is already present for your domain
 (`dig homeassistant.YOUR-TS-DOMAIN.ts.net +short` should return an IP address
 once the record is published)._
 
+### Option: `auth_key`
+
+This option allows you to specify your Tailscale auth-key to connect to your
+tailnet without manual intervention.
+
+More information on how to create auth-keys:
+
+<https://tailscale.com/kb/1085/auth-keys>
+
 ### Option: `log_level`
 
 The `log_level` option controls the level of log output by the addon and can

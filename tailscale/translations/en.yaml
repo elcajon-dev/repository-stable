@@ -29,3 +29,8 @@ configuration:
     description: >-
       If enabled your instance will be available externally via
       your Tailscale domain. See https://tailscale.com/kb/1223/tailscale-funnel
+  auth_key:
+    name: Tailscale Auth-Key
+    description: >-
+      Create an auth key to connect to your tailnet without any configuration
+      necessary. See https://tailscale.com/kb/1085/auth-keys
