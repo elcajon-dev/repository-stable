@@ -1,4 +1,9 @@
 ## What’s changed
+## 🧰 Maintenance
+
+- Configure Renovate @renovate (#64)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to version v1.38.2 @elcajon-bot (#62)
+- ⬆️ Bump peter-evans/enable-pull-request-automerge from 2 to 3 @dependabot (#63)
+- ⬆️ Update Add-on base image to v13.1.4 @renovate (#65)
