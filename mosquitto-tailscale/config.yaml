@@ -1,5 +1,5 @@
 name: Mosquitto & Tailscale
-version: 0.1.3
+version: 0.2.0
 slug: mosquitto-tailscale
 description: Open source MQTT broker combined with zero config VPN
 url: https://github.com/elcajon-tech/addon-mosquitto-tailscale
@@ -14,6 +14,9 @@ arch:
 init: false
 watchdog: tcp://[HOST]:1883
 hassio_api: true
+map:
+- config:rw
+- share:rw
 discovery:
 - mqtt
 services:
@@ -25,11 +28,17 @@ devices:
 options:
   tailscale_authkey: ''
   logins: []
+  customize:
+    active: false
+    folder: /share/mosquitto
 schema:
   enable_tailscale_ssh: bool?
   tailscale_authkey: str?
   logins:
   - username: str
     password: password
+  customize:
+    active: bool
+    folder: str
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
 image: ghcr.io/elcajon-tech/mosquitto-tailscale/{arch}

@@ -19,3 +19,7 @@ configuration:
     description: >-
       Create an auth key to connect to your tailnet without any configuration
       necessary. See https://tailscale.com/kb/1085/auth-keys
+  customize:
+    name: Customize
+    description: >-
+      See the Documentation tab for more information about these options.

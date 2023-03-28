@@ -81,6 +81,24 @@ logins:
     password: passwd
 ```
 
+### Option: `customize.active`
+
+If set to `true` additional configuration files will be read, see the next option.
+
+Default value: `false`
+
+### Option: `customize.folder`
+
+The full path to the folder to read the additional configuration
+files (`*.conf`) from. The folders `/config` and `/share` are accessible inside
+this add-on.
+
+```yaml
+customize:
+  active: true
+  folder: /share/mosquitto
+```
+
 ### Option: `log_level`
 
 The `log_level` option controls the level of log output by the addon and can
@@ -99,6 +117,49 @@ more severe level, e.g., `debug` also shows `info` messages. By default,
 the `log_level` is set to `info`, which is the recommended setting unless
 you are troubleshooting.
 
+## FAQ's
+
+### How to connect two Mosquitto instances via Tailscale
+
+You can use the [Mosquitto bridging (chapter Configuring Bridges)][mosquitto-bridging]
+feature to connect two Mosquitto instances via Tailscale.
+
+You need to activate the [customize option](#option-customizeactive) first.
+After this you need to create a custom mosquitto.conf (eg. `bridge.conf`) inside
+the configured customize folder with the following content
+(adjust the values in `<...>` to fit to your configuration):
+
+```
+connection ha-mosquitto-bridge
+address <my-tailscale-hostname>:1883
+topic # both 0
+cleansession false
+notifications false
+remote_clientid <mosquitto-server>
+remote_password <my-secret-password>
+remote_username <my-username>
+start_type automatic
+try_private true
+```
+
+A valid configuration file would look like this, for example:
+
+```
+connection ha-mosquitto-bridge
+address mosquitto-tailscale-main:1883
+topic # both 0
+cleansession false
+notifications false
+remote_clientid mosquitto-tailscale-dev
+remote_password secret-password123
+remote_username user1
+start_type automatic
+try_private true
+```
+
 [my-ha-badge]: https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg
 [my-ha-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Felcajon%2Frepository-stable
 [mosquitto-integration]: https://www.home-assistant.io/integrations/mqtt/
+[mosquitto]: https://mosquitto.org
+[mosquitto-ha]: https://github.com/home-assistant/addons/tree/master/mosquitto
+[mosquitto-bridging]: https://mosquitto.org/man/mosquitto-conf-5.html

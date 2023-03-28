@@ -1,9 +1,12 @@
 ## What’s changed
+## ✨ New features
+
+- Add option to customize mosquitto configuration @elcajon (#17)
+
 ## 🧰 Maintenance
 
-- Add renovate @elcajon (#8)
+- Remove dependabot @elcajon (#13)
 
-## ⬆️ Dependency updates
+## 📚 Documentation
 
-- ⬆️ Bump peter-evans/enable-pull-request-automerge from 2 to 3 @dependabot (#6)
-- ⬆️ Update Add-on base image to v13.1.4 @renovate (#11)
+- Add documentation for Mosquitto-Bridging with Tailscale @elcajon (#18)
