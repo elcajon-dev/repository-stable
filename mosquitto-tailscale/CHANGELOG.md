@@ -1,12 +1,5 @@
 ## What’s changed
-## ✨ New features
+## ⬆️ Dependency updates
 
-- Add option to customize mosquitto configuration @elcajon (#17)
-
-## 🧰 Maintenance
-
-- Remove dependabot @elcajon (#13)
-
-## 📚 Documentation
-
-- Add documentation for Mosquitto-Bridging with Tailscale @elcajon (#18)
+- ⬆️ Update Add-on base image to v13.1.5 @renovate (#19)
+- ⬆️ Update tailscale/tailscale to v1.38.3 @renovate (#20)
