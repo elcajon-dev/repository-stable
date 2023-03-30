@@ -1,9 +1,9 @@
 ## What’s changed
 ## 🧰 Maintenance
 
-- Configure Renovate @renovate (#64)
+- Remove dependabot @elcajon (#67)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Bump peter-evans/enable-pull-request-automerge from 2 to 3 @dependabot (#63)
-- ⬆️ Update Add-on base image to v13.1.4 @renovate (#65)
+- ⬆️ Update Add-on base image to v13.1.5 @renovate (#68)
+- ⬆️ Update tailscale/tailscale to v1.38.3 @renovate (#69)
