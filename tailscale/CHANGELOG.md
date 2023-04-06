@@ -1,4 +1,8 @@
 ## What’s changed
+## 🧰 Maintenance
+
+- Close Renovate Issue if no updates dangling @elcajon (#71)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v13.2.0 @renovate (#70)
+- ⬆️ Update tailscale/tailscale to v1.38.4 @renovate (#72)
