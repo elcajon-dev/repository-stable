@@ -1,9 +1,6 @@
 ## What’s changed
-## 🧰 Maintenance
-
-- Close Renovate Issue if no updates available @elcajon (#182)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update keesschollaart81/vscode-home-assistant to v1.35.1 @renovate (#183)
-- ⬆️ Update tailscale/tailscale to v1.38.4 @renovate (#184)
+- ⬆️ Update pkief/vscode-material-icon-theme to v4.26.0 @renovate (#185)
+- ⬆️ Update cloudflare/cloudflared to v2023.4.0 @renovate (#186)
+- ⬆️ Update mikefarah/yq to v4.33.3 @renovate (#187)
