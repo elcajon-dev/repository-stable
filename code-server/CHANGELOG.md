@@ -1,8 +1,8 @@
 ## What’s changed
-## 🚀 Enhancements
 
-- Exclude hidden custom services @elcajon (#189)
+The custom service and script structure has been updated to s6 v3.
+If you used the function in the path you need to adapt your service definitions accordingly.
 
-## ⬆️ Dependency updates
+## 🚨 Breaking changes
 
-- ⬆️ Update usernamehw.errorlens to 3.9.0 @elcajon (#188)
+- Change custom scripts to s6-rc v3 @elcajon (#190)
