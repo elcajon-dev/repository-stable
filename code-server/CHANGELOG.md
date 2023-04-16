@@ -1,4 +1,12 @@
 ## What’s changed
-## 🐛 Bug fixes
+## ✨ New features
 
-- Fix s6 v3 bug @elcajon (#191)
+- Add htop package @elcajon (#192)
+
+## 🚀 Enhancements
+
+- Refactor add-on startup procedure @elcajon (#193)
+
+## ⬆️ Dependency updates
+
+- Update docker-ce-cli to version 5:23.0.3-1~debian.11~bullseye @elcajon (#194)
