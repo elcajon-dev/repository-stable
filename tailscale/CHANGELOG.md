@@ -1,8 +1,6 @@
 ## What’s changed
-## 🧰 Maintenance
-
-- Close Renovate Issue if no updates dangling @elcajon (#71)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to v1.38.4 @renovate (#72)
+- ⬆️ Update Add-on base image to v13.2.1 @renovate (#73)
+- ⬆️ Update Add-on base image to v13.2.2 @renovate (#74)
+- ⬆️ Update frenck/action-addon-linter action to v2.12 @renovate (#75)
