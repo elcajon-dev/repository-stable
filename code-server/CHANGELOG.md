@@ -1,7 +1,9 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update esphome to v2023.4.4 @renovate (#215)
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.6 @renovate (#216)
-- ⬆️ Update DavidAnson/vscode-markdownlint to v0.50.0 @renovate (#218)
-- ⬆️ Update esphome/esphome-vscode to v2023 @renovate (#217)
+- ⬆️ Update tailscale/tailscale to v1.40.1 @renovate (#219)
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.7 @renovate (#220)
+- ⬆️ Update microsoft/vscode-docker to v1.25.1 @renovate (#221)
+- ⬆️ Update esphome to v2023.5.0 @renovate (#222)
+- ⬆️ Update esphome to v2023.5.1 @renovate (#223)
+- ⬆️ Update cdr/code-server to v4.13.0 @renovate (#224)
