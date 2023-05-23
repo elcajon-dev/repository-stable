@@ -1,5 +1,5 @@
 name: Mosquitto & Tailscale
-version: 0.2.6
+version: 0.2.7
 slug: mosquitto-tailscale
 description: Open source MQTT broker combined with zero config VPN
 url: https://github.com/elcajon-tech/addon-mosquitto-tailscale
@@ -12,7 +12,6 @@ arch:
 - armv7
 - i386
 init: false
-watchdog: tcp://[HOST]:1883
 hassio_api: true
 map:
 - config:rw
