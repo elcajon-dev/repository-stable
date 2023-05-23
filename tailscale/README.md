@@ -14,5 +14,5 @@ manages firewall rules for you, and works from anywhere you are.
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v0.6.8-blue.svg
-[release]: https://github.com/elcajon-tech/addon-tailscale/tree/v0.6.8
+[release-shield]: https://img.shields.io/badge/version-v0.6.9-blue.svg
+[release]: https://github.com/elcajon-tech/addon-tailscale/tree/v0.6.9
