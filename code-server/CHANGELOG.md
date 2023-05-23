@@ -1,9 +1,14 @@
 ## What’s changed
+## 🧰 Maintenance
+
+- Disable auto close renovate Dashboard @elcajon (#232)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to v1.40.1 @renovate (#219)
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.7 @renovate (#220)
-- ⬆️ Update microsoft/vscode-docker to v1.25.1 @renovate (#221)
-- ⬆️ Update esphome to v2023.5.0 @renovate (#222)
-- ⬆️ Update esphome to v2023.5.1 @renovate (#223)
-- ⬆️ Update cdr/code-server to v4.13.0 @renovate (#224)
+- ⬆️ Update keesschollaart81/vscode-home-assistant to v1.36.0 @renovate (#225)
+- ⬆️ Update home-assistant/cli to v4.25.0 @renovate (#227)
+- ⬆️ Update frenck/action-addon-linter action to v2.13 @renovate (#226)
+- ⬆️ Update esphome to v2023.5.2 @renovate (#228)
+- ⬆️ Update yamllint to v1.32.0 @renovate (#229)
+- ⬆️ Update esphome to v2023.5.3 @renovate (#230)
+- ⬆️ Update mikefarah/yq to v4.34.1 @renovate (#231)
