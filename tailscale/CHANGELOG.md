@@ -1,9 +1,9 @@
 ## What’s changed
-## 🧰 Maintenance
+## 🚀 Enhancements
 
-- Disable auto close renovate Dashboard @elcajon (#84)
+- Update tailscale serve reset @elcajon (#87)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update frenck/action-addon-linter action to v2.13 @renovate (#82)
-- ⬆️ Update alpine_3_18/nginx to v1.24.0-r4 @renovate (#83)
+- ⬆️ Update alpine_3_18/nginx to v1.24.0-r5 @renovate (#85)
+- ⬆️ Update tailscale/tailscale to v1.42.0 @renovate (#86)
