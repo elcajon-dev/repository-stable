@@ -1,5 +1,5 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update esphome to v2023.5.5 @renovate (#237)
-- ⬆️ Update home-assistant/cli to v4.26.0 @renovate (#238)
+- ⬆️ Update debian_11/openssl to v1.1.1n-0+deb11u5 @renovate (#239)
+- ⬆️ Update pkief/vscode-material-icon-theme to v4.28.0 @renovate (#240)
