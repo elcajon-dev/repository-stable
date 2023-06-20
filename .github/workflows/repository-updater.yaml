@@ -3,6 +3,7 @@ name: Repository Updater
 
 # yamllint disable-line rule:truthy
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: ["update"]
 
@@ -24,4 +25,4 @@ jobs:
         with:
           addon: ${{ github.event.client_payload.addon }}
           repository: ${{ github.repository }}
-          token: $UPDATER_TOKEN
+          token: ${{ env.UPDATER_TOKEN }}
