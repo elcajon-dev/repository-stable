@@ -34,3 +34,7 @@ configuration:
     description: >-
       Create an auth key to connect to your tailnet without any configuration
       necessary. See https://tailscale.com/kb/1085/auth-keys
+  disable_userspace_networking:
+    name: Disable Userspace Networking
+    description: >-
+      Creates a network interface on the host if disabled.

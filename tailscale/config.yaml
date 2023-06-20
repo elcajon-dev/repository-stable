@@ -1,5 +1,5 @@
 name: Tailscale
-version: 0.6.12
+version: 0.6.13
 slug: tailscale
 description: Zero config VPN for building secure networks
 url: https://github.com/elcajon-tech/addon-tailscale
@@ -33,12 +33,14 @@ options:
   enable_exit_node: false
   enable_subnets: false
   enable_ssh: false
+  disable_userspace_networking: false
 schema:
   enable_funnel: bool?
   enable_exit_node: bool?
   enable_subnets: bool?
   enable_ssh: bool?
   auth_key: str?
+  disable_userspace_networking: bool?
   tags:
   - match(^tag:[a-zA-Z0-9]-?[a-zA-Z0-9]+$)?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
