@@ -1,4 +1,5 @@
 ## What’s changed
-## ⬆️ Dependency updates
+## 🧰 Maintenance
 
-- ⬆️ Update tailscale/tailscale to v1.44.0 @renovate (#100)
+- Update CI secrets to use app instead of PAT @elcajon (#101)
+- Update ci concurrency @elcajon (#102)
