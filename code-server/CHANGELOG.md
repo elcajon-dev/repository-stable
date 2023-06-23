@@ -1,5 +1,11 @@
 ## What’s changed
+## 🧰 Maintenance
+
+- Update CI to use app token instead of PAT @elcajon (#262)
+- Update ci concurrency @elcajon (#264)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update prettier/prettier-vscode to v9.15.0 @renovate (#257)
-- ⬆️ Update tailscale/tailscale to v1.44.0 @renovate (#258)
+- ⬆️ Update esphome to v2023.6.0 @renovate (#259)
+- ⬆️ Update prettier/prettier-vscode to v9.16.0 @renovate (#260)
+- ⬆️ Update esphome to v2023.6.1 @renovate (#261)
