@@ -1,5 +1,7 @@
 ## What’s changed
-## 🧰 Maintenance
+## ⬆️ Dependency updates
 
-- Update CI to use app token instead of PAT @elcajon (#47)
-- Update ci concurrency @elcajon (#48)
+- ⬆️ Update docker/setup-buildx-action action to v2.8.0 @renovate (#49)
+- ⬆️ Update 1password/load-secrets-action action to v1.3.0 @renovate (#50)
+- ⬆️ Update 1password/load-secrets-action action to v1.3.1 @renovate (#51)
+- ⬆️ Update docker/setup-buildx-action action to v2.9.0 @renovate (#52)
