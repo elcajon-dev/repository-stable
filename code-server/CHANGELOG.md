@@ -1,16 +1,10 @@
 ## What’s changed
-## ✨ New features
-
-- Add Healthcheck @elcajon (#268)
-
-## 🐛 Bug fixes
-
-- Update health check @elcajon (#273)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update cdr/code-server to v4.14.1 @renovate (#267)
-- ⬆️ Update docker/setup-buildx-action action to v2.8.0 @renovate (#269)
-- ⬆️ Update esphome to v2023.6.3 @renovate (#270)
-- ⬆️ Update prettier/prettier-vscode to v9.19.0 @renovate (#271)
-- ⬆️ Update rclone/rclone to v1.63.0 @renovate (#272)
+- ⬆️ Update esphome to v2023.6.4 @renovate (#274)
+- ⬆️ Update home-assistant/cli to v4.27.0 @renovate (#275)
+- ⬆️ Update 1password/load-secrets-action action to v1.3.0 @renovate (#276)
+- ⬆️ Update 1password/load-secrets-action action to v1.3.1 @renovate (#277)
+- ⬆️ Update docker/setup-buildx-action action to v2.9.0 @renovate (#278)
+- ⬆️ Update esphome to v2023.6.5 @renovate (#279)
+- ⬆️ Update microsoft/vscode-docker to v1.25.2 @renovate (#280)
