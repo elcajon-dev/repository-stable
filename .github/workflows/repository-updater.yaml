@@ -21,7 +21,7 @@ jobs:
           OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
           UPDATER_TOKEN: "op://CI/Github Token/Anmeldedaten"
       - name: 🚀 Run Repository Updater
-        uses: hassio-addons/repository-updater@v1.2.5
+        uses: hassio-addons/repository-updater@v1.3.0
         with:
           addon: ${{ github.event.client_payload.addon }}
           repository: ${{ github.repository }}
