@@ -1,10 +1,11 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update esphome to v2023.6.4 @renovate (#274)
-- ⬆️ Update home-assistant/cli to v4.27.0 @renovate (#275)
-- ⬆️ Update 1password/load-secrets-action action to v1.3.0 @renovate (#276)
-- ⬆️ Update 1password/load-secrets-action action to v1.3.1 @renovate (#277)
-- ⬆️ Update docker/setup-buildx-action action to v2.9.0 @renovate (#278)
-- ⬆️ Update esphome to v2023.6.5 @renovate (#279)
-- ⬆️ Update microsoft/vscode-docker to v1.25.2 @renovate (#280)
+- ⬆️ Update cloudflare/cloudflared to v2023.7.1 @renovate (#285)
+- ⬆️ Update microsoft/vscode-docker to v1.26.0 @renovate (#286)
+- ⬆️ Update rclone/rclone to v1.63.1 @renovate (#288)
+- ⬆️ Update tailscale/tailscale to v1.44.2 @renovate (#287)
+- ⬆️ Update esphome to v2023.7.0 @renovate (#289)
+- ⬆️ Update keesschollaart81/vscode-home-assistant to v1.37.0 @renovate (#290)
+- ⬆️ Update tailscale/tailscale to v1.46.0 @renovate (#292)
+- ⬆️ Update esphome/esphome-vscode to v2023.7.0 @renovate (#291)
