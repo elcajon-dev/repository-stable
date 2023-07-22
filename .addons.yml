@@ -5,11 +5,3 @@ addons:
     repository: elcajon-tech/addon-code-server
     target: code-server
     image: ghcr.io/elcajon-tech/code-server/{arch}
-  tailscale:
-    repository: elcajon-tech/addon-tailscale
-    target: tailscale
-    image: ghcr.io/elcajon-tech/tailscale/{arch}
-  mosquitto-tailscale:
-    repository: elcajon-tech/addon-mosquitto-tailscale
-    target: mosquitto-tailscale
-    image: ghcr.io/elcajon-tech/mosquitto-tailscale/{arch}
