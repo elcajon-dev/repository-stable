@@ -2,6 +2,6 @@
 channel: stable
 addons:
   code-server:
-    repository: elcajon-tech/addon-code-server
+    repository: elcajon/addon-code-server
     target: code-server
-    image: ghcr.io/elcajon-tech/code-server/{arch}
+    image: ghcr.io/elcajon/code-server/{arch}
