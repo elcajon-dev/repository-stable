@@ -38,32 +38,6 @@ Code Server experience integrated in the Home Assistant frontend.
 
 [:books: Advanced Code Server add-on documentation][addon-doc-code-server]
 
-### &#10003; [Mosquitto & Tailscale][addon-mosquitto-tailscale]
-
-![Latest Version][mosquitto-tailscale-version-shield]
-![Supports armhf Architecture][mosquitto-tailscale-armhf-shield]
-![Supports armv7 Architecture][mosquitto-tailscale-armv7-shield]
-![Supports aarch64 Architecture][mosquitto-tailscale-aarch64-shield]
-![Supports amd64 Architecture][mosquitto-tailscale-amd64-shield]
-![Supports i386 Architecture][mosquitto-tailscale-i386-shield]
-
-Open source MQTT broker combined with zero config VPN
-
-[:books: Mosquitto & Tailscale add-on documentation][addon-doc-mosquitto-tailscale]
-
-### &#10003; [Tailscale][addon-tailscale]
-
-![Latest Version][tailscale-version-shield]
-![Supports armhf Architecture][tailscale-armhf-shield]
-![Supports armv7 Architecture][tailscale-armv7-shield]
-![Supports aarch64 Architecture][tailscale-aarch64-shield]
-![Supports amd64 Architecture][tailscale-amd64-shield]
-![Supports i386 Architecture][tailscale-i386-shield]
-
-Zero config VPN for building secure networks
-
-[:books: Tailscale add-on documentation][addon-doc-tailscale]
-
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
@@ -79,8 +53,6 @@ based on the following:
 Got questions?
 
 - [Open an issue for the add-on: Advanced Code Server][code-server-issue]
-- [Open an issue for the add-on: Mosquitto & Tailscale][mosquitto-tailscale-issue]
-- [Open an issue for the add-on: Tailscale][tailscale-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -110,29 +82,11 @@ SOFTWARE.
 [addon-doc-code-server]: https://github.com/elcajon-tech/addon-code-server/blob/v1.3.3/README.md
 [code-server-issue]: https://github.com/elcajon-tech/addon-code-server/issues
 [code-server-version-shield]: https://img.shields.io/badge/version-v1.3.3-blue.svg
-[code-server-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[code-server-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
 [code-server-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [code-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [code-server-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [code-server-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-mosquitto-tailscale]: https://github.com/elcajon-tech/addon-mosquitto-tailscale/tree/v0.2.15
-[addon-doc-mosquitto-tailscale]: https://github.com/elcajon-tech/addon-mosquitto-tailscale/blob/v0.2.15/README.md
-[mosquitto-tailscale-issue]: https://github.com/elcajon-tech/addon-mosquitto-tailscale/issues
-[mosquitto-tailscale-version-shield]: https://img.shields.io/badge/version-v0.2.15-blue.svg
-[mosquitto-tailscale-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[mosquitto-tailscale-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[mosquitto-tailscale-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[mosquitto-tailscale-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[mosquitto-tailscale-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-tailscale]: https://github.com/elcajon-tech/addon-tailscale/tree/v0.6.18
-[addon-doc-tailscale]: https://github.com/elcajon-tech/addon-tailscale/blob/v0.6.18/README.md
-[tailscale-issue]: https://github.com/elcajon-tech/addon-tailscale/issues
-[tailscale-version-shield]: https://img.shields.io/badge/version-v0.6.18-blue.svg
-[tailscale-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[tailscale-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[tailscale-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[tailscale-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[tailscale-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [issue]: https://github.com/elcajon-tech/repository-stable/issues
 [license-shield]: https://img.shields.io/github/license/elcajon-tech/repository-stable.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
