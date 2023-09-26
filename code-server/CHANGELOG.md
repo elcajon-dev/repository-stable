@@ -1,15 +1,12 @@
 ## What’s changed
-## 🧰 Maintenance
+## 🐛 Bug fixes
 
-- Update deploy.yaml @elcajon (#341)
-
-## 📚 Documentation
-
-- Update translation @elcajon (#339)
+- Remove CAS @elcajon (#353)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update docker/build-push-action action to v5 @renovate (#340)
-- ⬆️ Update docker/setup-qemu-action action to v3 @renovate (#344)
-- ⬆️ Update docker/login-action action to v3 @renovate (#342)
-- ⬆️ Update docker/setup-buildx-action action to v3 @renovate (#343)
+- ⬆️ Update microsoft/vscode-docker to v1.26.1 @renovate (#345)
+- ⬆️ Update mikefarah/yq to v4.35.2 @renovate (#352)
+- ⬆️ Update cdr/code-server to v4.17.0 @renovate (#349)
+- ⬆️ Update DavidAnson/vscode-markdownlint to v0.52.0 @renovate (#350)
+- ⬆️ Update tailscale/tailscale to v1.50.0 @renovate (#351)
