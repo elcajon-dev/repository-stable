@@ -1,13 +1,8 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update esphome to v2023.9.0 @renovate (#354)
-- ⬆️ Update esphome to v2023.9.1 @renovate (#355)
-- ⬆️ Update home-assistant/cli to v4.28.0 @renovate (#356)
-- ⬆️ Update cdr/code-server to v4.17.1 @renovate (#357)
-- ⬆️ Update actionshub/markdownlint action to v3.1.4 @renovate (#358)
-- Upgrade mosquitto-clients to v2.0.11-1.2+deb12u1 @elcajon (#360)
-- ⬆️ Update esphome to v2023.9.2 @renovate (#359)
-- ⬆️ Update tailscale/tailscale to v1.50.1 @renovate (#361)
-- ⬆️ Update esphome to v2023.9.3 @renovate (#362)
-- ⬆️ Update home-assistant/cli to v4.28.1 @renovate (#363)
+- ⬆️ Update pkief/vscode-material-icon-theme to v4.31.0 @renovate (#364)
+- ⬆️ Update locales to 2.36-9+deb12u3 @elcajon (#367)
+- ⬆️ Update debian_12/mariadb-client to v1:10.11.4-1~deb12u1 @renovate (#365)
+- ⬆️ Update debian_12/openssh to v1:9.2p1-2+deb12u1 @renovate (#366)
+- ⬆️ Update debian_12/openssl to v3.0.11-1~deb12u1 @renovate (#368)
