@@ -1,6 +1,7 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update esphome to v2023.10.1 @renovate (#378)
-- ⬆️ Update rclone/rclone to v1.64.2 @renovate (#379)
-- ⬆️ Update cdr/code-server to v4.18.0 @renovate (#380)
+- ⬆️ Update debian_12/openssl to v3.0.11-1~deb12u2 @renovate (#381)
+- ⬆️ Update esphome to v2023.10.3 @renovate (#382)
+- ⬆️ Update esphome to v2023.10.4 @renovate (#383)
+- ⬆️ Update tailscale/tailscale to v1.52.0 @renovate (#384)
