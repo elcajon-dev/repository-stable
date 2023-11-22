@@ -1,26 +1,24 @@
 ## What’s changed
-
-# Breaking changes - read carefully before updating!
-The folder **/config** has been renamed to **/homeassistant**
-The folder **/config** now contains public add-on specific configuration ([click here](https://developers.home-assistant.io/blog/2023/11/06/public-addon-config/) for more information)
-The folder **/addon_configs** has been added and contains the add-on specific configuration of all add-ons (which support add-on specific configuration)
-The add-on option `init_path` has been removed. Custom scripts can now be placed inside `/config/custom-services`
-
-Create a backup before updating and make sure to adapt custom scripts/services accordingly after the update. 
-
-## 🚨 Breaking changes
-
-- Add support for public add-on configs (/addon_configs) @elcajon (#393)
-- Use /config for add-on configuration @elcajon (#395)
-
-## 🐛 Bug fixes
-
-- Bugfix custom-scripts for public add-on configuration @elcajon (#396)
-
 ## 🚀 Enhancements
 
-- Add addon_config mapping (/config) @elcajon (#394)
+- Disable custom-init with debug mode enabled @elcajon (#401)
+- Update default settings.json @elcajon (#403)
+
+## 🧰 Maintenance
+
+- Adapt mapped folders @elcajon (#398)
+- Change default add-on config dir to /config @elcajon (#399)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update frenck/action-addon-linter action to v2.14 @renovate (#392)
+- ⬆️ Update frenck/action-addon-linter action to v2.15 @renovate (#397)
+- ⬆️ Update microsoft/vscode-docker to v1.28.0 @renovate (#400)
+- ⬆️ Update esphome to v2023.11.0 @renovate (#402)
+- ⬆️ Update tailscale/tailscale to v1.54.0 @renovate (#404)
+- ⬆️ Update esphome to v2023.11.1 @renovate (#405)
+- ⬆️ Update docker/build-push-action action to v5.1.0 @renovate (#406)
+- ⬆️ Update esphome to v2023.11.2 @renovate (#407)
+- ⬆️ Update cdr/code-server to v4.19.0 @renovate (#408)
+- ⬆️ Update mikefarah/yq to v4.40.2 @renovate (#409)
+- ⬆️ Update pkief/vscode-material-icon-theme to v4.32.0 @renovate (#410)
+- ⬆️ Update esphome to v2023.11.3 @renovate (#411)
