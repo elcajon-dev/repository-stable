@@ -4,6 +4,7 @@
 ![Project Stage][project-stage-shield]
 ![Project Maintenance][maintenance-shield]
 ![Reported Installations][installations-shield-stable]
+
 Code Server experience integrated in the Home Assistant frontend.
 
 ## About
