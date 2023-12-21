@@ -28,6 +28,7 @@ https://github.com/elcajon/repository-stable
 ### &#10003; [Advanced Code Server][addon-code-server]
 
 ![Latest Version][code-server-version-shield]
+![Reported Installations][code-server-installations-shield-stable]
 ![Supports armhf Architecture][code-server-armhf-shield]
 ![Supports armv7 Architecture][code-server-armv7-shield]
 ![Supports aarch64 Architecture][code-server-aarch64-shield]
@@ -82,6 +83,7 @@ SOFTWARE.
 [addon-doc-code-server]: https://github.com/elcajon/addon-code-server/blob/v3.1.1/README.md
 [code-server-issue]: https://github.com/elcajon/addon-code-server/issues
 [code-server-version-shield]: https://img.shields.io/badge/version-v3.1.1-blue.svg
+[code-server-installations-shield-edge]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fanalytics.home-assistant.io%2Faddons.json&query=%24%5B%226258206e_code-server%22%5D.total&label=Reported%20Installations&link=https%3A%2F%2Fanalytics.home-assistant.io/add-ons
 [code-server-aarch64-shield]: https://img.shields.io/badge/aarch64-no-red.svg
 [code-server-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [code-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
