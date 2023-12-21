@@ -1,7 +1,9 @@
 # Home Assistant Add-on: Advanced Code Server
 
-[![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
-
+[![Release][release-shield]][release]
+![Project Stage][project-stage-shield]
+![Project Maintenance][maintenance-shield]
+![Reported Installations][installations-shield-stable]
 Code Server experience integrated in the Home Assistant frontend.
 
 ## About
@@ -32,6 +34,8 @@ Please be aware that when misused you can destroy your whole system with this ad
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-v3.1.1-blue.svg
-[release]: https://github.com/elcajon/addon-code-server/tree/v3.1.1
+[release-shield]: https://img.shields.io/badge/version-v3.1.2-blue.svg
+[release]: https://github.com/elcajon/addon-code-server/tree/v3.1.2
 [hassio-addons]: https://github.com/hassio-addons/addon-vscode
+[installations-shield-edge]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fanalytics.home-assistant.io%2Faddons.json&query=%24%5B%22079a70e5_code-server%22%5D.total&label=Reported%20Installations&link=https%3A%2F%2Fanalytics.home-assistant.io/add-ons
+[installations-shield-stable]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fanalytics.home-assistant.io%2Faddons.json&query=%24%5B%226258206e_code-server%22%5D.total&label=Reported%20Installations&link=https%3A%2F%2Fanalytics.home-assistant.io/add-ons
