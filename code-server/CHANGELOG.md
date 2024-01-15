@@ -1,13 +1,14 @@
 ## What’s changed
-## 🚀 Enhancements
+## 📚 Documentation
 
-- Remove config folder mapping @elcajon (#443)
+- 🎉 Add maintenance for 2024 @elcajon (#436)
 
 ## ⬆️ Dependency updates
 
-- Update openssh to 1:9.2p1-2+deb12u2 @elcajon (#437)
-- ⬆️ Update esphome to v2023.12.3 @renovate (#438)
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.3.0 @renovate (#439)
-- ⬆️ Update esphome to v2023.12.4 @renovate (#440)
-- ⬆️ Update esphome to v2023.12.5 @renovate (#441)
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.3.1 @renovate (#442)
+- ⬆️ Update cloudflare/cloudflared to v2024 @renovate (#444)
+- ⬆️ Update rclone/rclone to v1.65.1 @renovate (#445)
+- ⬆️ Update pkief/vscode-material-icon-theme to v4.33.0 @renovate (#446)
+- ⬆️ Update cloudflare/cloudflared to v2024.1.1 @renovate (#447)
+- ⬆️ Update cloudflare/cloudflared to v2024.1.2 @renovate (#448)
+- ⬆️ Update keesschollaart81/vscode-home-assistant to v1.40.0 @renovate (#449)
+- ⬆️ Update esphome to v2023.12.6 @renovate (#450)
