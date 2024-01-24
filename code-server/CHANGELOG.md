@@ -1,14 +1,11 @@
 ## What’s changed
-## 📚 Documentation
-
-- 🎉 Add maintenance for 2024 @elcajon (#436)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update cloudflare/cloudflared to v2024 @renovate (#444)
-- ⬆️ Update rclone/rclone to v1.65.1 @renovate (#445)
-- ⬆️ Update pkief/vscode-material-icon-theme to v4.33.0 @renovate (#446)
-- ⬆️ Update cloudflare/cloudflared to v2024.1.1 @renovate (#447)
-- ⬆️ Update cloudflare/cloudflared to v2024.1.2 @renovate (#448)
-- ⬆️ Update keesschollaart81/vscode-home-assistant to v1.40.0 @renovate (#449)
-- ⬆️ Update esphome to v2023.12.6 @renovate (#450)
+- ⬆️ Update esphome to v2023.12.7 @renovate (#451)
+- ⬆️ Update cloudflare/cloudflared to v2024.1.3 @renovate (#452)
+- ⬆️ Update tailscale/tailscale to v1.58.0 @renovate (#453)
+- ⬆️ Update esphome to v2023.12.8 @renovate (#454)
+- ⬆️ Update cloudflare/cloudflared to v2024.1.4 @renovate (#455)
+- ⬆️ Update tailscale/tailscale to v1.58.2 @renovate (#458)
+- ⬆️ Update cdr/code-server to v4.20.1 @renovate (#456)
+- ⬆️ Update esphome to v2023.12.9 @renovate (#457)
