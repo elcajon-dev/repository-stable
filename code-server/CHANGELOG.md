@@ -1,6 +1,5 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update microsoft/vscode-docker to v1.29.0 @renovate (#470)
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.3.3 @renovate (#471)
-- ⬆️ Update yamllint to v1.35.0 @renovate (#472)
+- ⬆️ Update tailscale/tailscale to v1.60.0 @renovate (#473)
+- ⬆️ Update mikefarah/yq to v4.41.1 @renovate (#474)
