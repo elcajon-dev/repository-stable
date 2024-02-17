@@ -1,5 +1,9 @@
 ## What’s changed
+## 🚨 Breaking changes
+
+- 🧰 Update Documentation after Repository change @elcajon (#477)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to v1.60.0 @renovate (#473)
-- ⬆️ Update mikefarah/yq to v4.41.1 @renovate (#474)
+- ⬆️ Update yamllint to v1.35.1 @renovate (#475)
+- ⬆️ Update frenck/action-yamllint action to v1.5 @renovate (#476)
