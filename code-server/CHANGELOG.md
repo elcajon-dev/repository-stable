@@ -1,9 +1,7 @@
 ## What’s changed
-## 🚨 Breaking changes
-
-- 🧰 Update Documentation after Repository change @elcajon (#477)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update yamllint to v1.35.1 @renovate (#475)
-- ⬆️ Update frenck/action-yamllint action to v1.5 @renovate (#476)
+- ⬆️ Update pkief/vscode-material-icon-theme to v4.34.0 @renovate (#478)
+- ⬆️ Update home-assistant/cli to v4.30.0 @renovate (#479)
+- ⬆️ Update cloudflare/cloudflared to v2024.2.1 @renovate (#480)
+- ⬆️ Update home-assistant/cli to v4.30.1 @renovate (#482)
