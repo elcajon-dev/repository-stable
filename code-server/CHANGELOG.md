@@ -1,6 +1,7 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update mikefarah/yq to v4.43.1 @renovate (#504)
-- ⬆️ Update tailscale/tailscale to v1.62.1 @renovate (#505)
-- ⬆️ Update esphome to v2024.3.1 @renovate (#506)
+- ⬆️ Update home-assistant/cli to v4.32.0 @renovate (#507)
+- ⬆️ Update esphome to v2024.3.2 @renovate (#508)
+- ⬆️ Update docker/setup-buildx-action action to v3.3.0 @renovate (#509)
+- ⬆️ Update cdr/code-server to v4.23.0 @renovate (#510)
