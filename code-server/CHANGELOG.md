@@ -1,8 +1,8 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update libarchive-tools to 3.6.2-1+deb12u1 @elcajon (#546)
-- ⬆️ Update esphome to v2024.5.5 @renovate (#540)
-- ⬆️ Update caddyserver/caddy to v2.8.4 @renovate (#541)
-- ⬆️ Update docker/login-action action to v3.2.0 @renovate (#544)
-- ⬆️ Update cloudflare/cloudflared to v2024.6.0 @renovate (#542)
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.3.4 @renovate (#547)
+- ⬆️ Update docker/build-push-action action to v5.4.0 @renovate (#549)
+- ⬆️ Update cdr/code-server to v4.90.1 @renovate (#548)
+- ⬆️ Update tailscale/tailscale to v1.68.0 @renovate (#551)
+- ⬆️ Update pkief/vscode-material-icon-theme to v5.4.1 @renovate (#550)
