@@ -1,8 +1,12 @@
 ## What’s changed
+## ✨ New features
+
+- ✨ Add black formatter to requirements and vscode extension @elcajon (#635)
+- ✨ Add Github Pull Request extension @elcajon (#638)
+- ✨ Add Python and Python debugger code server extension @elcajon (#640)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update DavidAnson/vscode-markdownlint to v0.56.0 @renovate (#630)
-- ⬆️ Update tailscale/tailscale to v1.74.0 @renovate (#631)
-- ⬆️ Update debian_12/git to v1:2.39.5-0+deb12u1 @renovate (#632)
-- ⬆️ Update tailscale/tailscale to v1.74.1 @renovate (#633)
-- ⬆️ Update esphome to v2024.9.0 @renovate (#634)
+- ⬆️ Update black to v24.8.0 @renovate (#637)
+- ⬆️ Update 34j/vscode-black to v1.0.3 @renovate (#636)
+- ⬆️ Update GitHub Copilot and Copilot Chat @elcajon (#639)
