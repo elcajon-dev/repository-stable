@@ -1,23 +1,29 @@
 ## What’s changed
+## 🚀 Enhancements
+
+- Update settings.json @elcajon (#716)
+
+## 📚 Documentation
+
+- 🎉 Happy new year @elcajon (#732)
+
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.5.2 @renovate (#696)
-- ⬆️ Update cdr/code-server to v4.95.2 @renovate (#697)
-- ⬆️ Update microsoft/vscode-python to v2024.20.0 @renovate (#698)
-- ⬆️ Update pkief/vscode-material-icon-theme to v5.14.0 @renovate (#699)
-- ⬆️ Update pkief/vscode-material-icon-theme to v5.14.1 @renovate (#700)
-- ⬆️ Update rclone/rclone to v1.68.2 @renovate (#701)
-- ⬆️ Update mikefarah/yq to v4.44.5 @renovate (#703)
-- ⬆️ Update DavidAnson/vscode-markdownlint to v0.57.0 @renovate (#704)
-- ⬆️ Update cdr/code-server to v4.95.3 @renovate (#705)
-- ⬆️ Update cloudflare/cloudflared to v2024.11.1 @renovate (#706)
-- ⬆️ Update esphome to v2024.11.0 @renovate (#707)
-- ⬆️ Update esphome to v2024.11.1 @renovate (#708)
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.6.0 @renovate (#702)
-- ⬆️ Update docker/build-push-action action to v6.10.0 @renovate (#709)
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.6.1 @renovate (#710)
-- ⬆️ Update esphome to v2024.11.2 @renovate (#711)
-- ⬆️ Update tailscale/tailscale to v1.78.0 @renovate (#712)
-- ⬆️ Update tailscale/tailscale to v1.78.1 @renovate (#713)
-- ⬆️ Update esphome to v2024.11.3 @renovate (#714)
-- ⬆️ Update pkief/vscode-material-icon-theme to v5.15.0 @renovate (#715)
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.6.2 @renovate (#717)
+- ⬆️ Update mikefarah/yq to v4.44.6 @renovate (#718)
+- ⬆️ Update cloudflare/cloudflared to v2024.12.0 @renovate (#719)
+- ⬆️ Update cloudflare/cloudflared to v2024.12.1 @renovate (#720)
+- ⬆️ Update microsoft/vscode-python to v2024.22.0 @renovate (#721)
+- ⬆️ Update microsoft/vscode-python-debugger to v2024.14.0 @renovate (#722)
+- ⬆️ Update docker/setup-buildx-action action to v3.8.0 @renovate (#723)
+- ⬆️ Update pkief/vscode-material-icon-theme to v5.16.0 @renovate (#724)
+- ⬆️ Update esphome to v2024.12.0 @renovate (#725)
+- ⬆️ Update microsoft/vscode-docker to v1.29.3 @renovate (#726)
+- ⬆️ Update cdr/code-server to v4.96.1 @renovate (#727)
+- ⬆️ Update esphome to v2024.12.1 @renovate (#728)
+- ⬆️ Update cloudflare/cloudflared to v2024.12.2 @renovate (#729)
+- ⬆️ Update cdr/code-server to v4.96.2 @renovate (#730)
+- ⬆️ Update esphome to v2024.12.2 @renovate (#731)
+- ⬆️ Update microsoft/vscode-python to v2024.22.1 @renovate (#733)
+- ⬆️ Update caddyserver/caddy to v2.9.0 @renovate (#734)
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.6.3 @renovate (#735)
