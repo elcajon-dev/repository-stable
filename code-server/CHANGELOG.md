@@ -1,29 +1,13 @@
 ## What’s changed
-## 🚀 Enhancements
-
-- Update settings.json @elcajon (#716)
-
-## 📚 Documentation
-
-- 🎉 Happy new year @elcajon (#732)
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.6.2 @renovate (#717)
-- ⬆️ Update mikefarah/yq to v4.44.6 @renovate (#718)
-- ⬆️ Update cloudflare/cloudflared to v2024.12.0 @renovate (#719)
-- ⬆️ Update cloudflare/cloudflared to v2024.12.1 @renovate (#720)
-- ⬆️ Update microsoft/vscode-python to v2024.22.0 @renovate (#721)
-- ⬆️ Update microsoft/vscode-python-debugger to v2024.14.0 @renovate (#722)
-- ⬆️ Update docker/setup-buildx-action action to v3.8.0 @renovate (#723)
-- ⬆️ Update pkief/vscode-material-icon-theme to v5.16.0 @renovate (#724)
-- ⬆️ Update esphome to v2024.12.0 @renovate (#725)
-- ⬆️ Update microsoft/vscode-docker to v1.29.3 @renovate (#726)
-- ⬆️ Update cdr/code-server to v4.96.1 @renovate (#727)
-- ⬆️ Update esphome to v2024.12.1 @renovate (#728)
-- ⬆️ Update cloudflare/cloudflared to v2024.12.2 @renovate (#729)
-- ⬆️ Update cdr/code-server to v4.96.2 @renovate (#730)
-- ⬆️ Update esphome to v2024.12.2 @renovate (#731)
-- ⬆️ Update microsoft/vscode-python to v2024.22.1 @renovate (#733)
-- ⬆️ Update caddyserver/caddy to v2.9.0 @renovate (#734)
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.6.3 @renovate (#735)
+- ⬆️ Update pkief/vscode-material-icon-theme to v5.17.0 @renovate (#736)
+- ⬆️ Update cloudflare/cloudflared to v2025 @renovate (#737)
+- ⬆️ Update docker/build-push-action action to v6.11.0 @renovate (#738)
+- ⬆️ Update docker/setup-qemu-action action to v3.3.0 @renovate (#739)
+- ⬆️ Update caddyserver/caddy to v2.9.1 @renovate (#740)
+- ⬆️ Update microsoft/vscode-python to v2024.22.2 @renovate (#741)
+- ⬆️ Update DavidAnson/vscode-markdownlint to v0.58.0 @renovate (#742)
+- ⬆️ Update debian_12/openssh to v1:9.2p1-2+deb12u4 @renovate (#743)
+- ⬆️ Update mikefarah/yq to v4.45.1 @renovate (#744)
+- ⬆️ Update rclone/rclone to v1.69.0 @renovate (#745)
