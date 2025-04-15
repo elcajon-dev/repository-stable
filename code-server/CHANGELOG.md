@@ -1,11 +1,9 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update tailscale/tailscale to v1.82.0 @[renovate[bot]](https://github.com/apps/renovate) (#797)
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.8.1 @[renovate[bot]](https://github.com/apps/renovate) (#798)
-- ⬆️ Update esphome to v2025.3.3 @[renovate[bot]](https://github.com/apps/renovate) (#799)
-- ⬆️ Update pkief/vscode-material-icon-theme to v5.21.0 @[renovate[bot]](https://github.com/apps/renovate) (#800)
-- ⬆️ Update cloudflare/cloudflared to v2025.4.0 @[renovate[bot]](https://github.com/apps/renovate) (#801)
-- ⬆️ Update pkief/vscode-material-icon-theme to v5.21.1 @[renovate[bot]](https://github.com/apps/renovate) (#802)
-- ⬆️ Update microsoft/vscode-python to v2025.4.0 @[renovate[bot]](https://github.com/apps/renovate) (#803)
-- ⬆️ Update microsoft/vscode-python-debugger to v2025.6.0 @[renovate[bot]](https://github.com/apps/renovate) (#804)
+- ⬆️ Update cdr/code-server to v4.99.0 @[renovate[bot]](https://github.com/apps/renovate) (#805)
+- ⬆️ Update microsoft/vscode-docker to v1.29.5 @[renovate[bot]](https://github.com/apps/renovate) (#806)
+- ⬆️ Update cdr/code-server to v4.99.1 @[renovate[bot]](https://github.com/apps/renovate) (#807)
+- ⬆️ Update home-assistant/cli to v4.38.0 @[renovate[bot]](https://github.com/apps/renovate) (#808)
+- ⬆️ Update cdr/code-server to v4.99.2 @[renovate[bot]](https://github.com/apps/renovate) (#809)
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.8.2 @[renovate[bot]](https://github.com/apps/renovate) (#810)
