@@ -1,9 +1,7 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update cdr/code-server to v4.99.0 @[renovate[bot]](https://github.com/apps/renovate) (#805)
-- ⬆️ Update microsoft/vscode-docker to v1.29.5 @[renovate[bot]](https://github.com/apps/renovate) (#806)
-- ⬆️ Update cdr/code-server to v4.99.1 @[renovate[bot]](https://github.com/apps/renovate) (#807)
-- ⬆️ Update home-assistant/cli to v4.38.0 @[renovate[bot]](https://github.com/apps/renovate) (#808)
-- ⬆️ Update cdr/code-server to v4.99.2 @[renovate[bot]](https://github.com/apps/renovate) (#809)
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.8.2 @[renovate[bot]](https://github.com/apps/renovate) (#810)
+- ⬆️ Update esphome to v2025.4.0 @[renovate[bot]](https://github.com/apps/renovate) (#811)
+- ⬆️ Update cdr/code-server to v4.99.3 @[renovate[bot]](https://github.com/apps/renovate) (#812)
+- ⬆️ Update tailscale/tailscale to v1.82.5 @[renovate[bot]](https://github.com/apps/renovate) (#813)
+- ⬆️ Update caddyserver/caddy to v2.10.0 @[renovate[bot]](https://github.com/apps/renovate) (#814)
