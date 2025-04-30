@@ -1,7 +1,6 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update esphome to v2025.4.0 @[renovate[bot]](https://github.com/apps/renovate) (#811)
-- ⬆️ Update cdr/code-server to v4.99.3 @[renovate[bot]](https://github.com/apps/renovate) (#812)
-- ⬆️ Update tailscale/tailscale to v1.82.5 @[renovate[bot]](https://github.com/apps/renovate) (#813)
-- ⬆️ Update caddyserver/caddy to v2.10.0 @[renovate[bot]](https://github.com/apps/renovate) (#814)
+- ⬆️ Update docker/build-push-action action to v6.16.0 @[renovate[bot]](https://github.com/apps/renovate) (#815)
+- ⬆️ Update microsoft/vscode-docker to v1.29.6 @[renovate[bot]](https://github.com/apps/renovate) (#816)
+- ⬆️ Update esphome to v2025.4.1 @[renovate[bot]](https://github.com/apps/renovate) (#817)
