@@ -1,6 +1,8 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update docker/build-push-action action to v6.16.0 @[renovate[bot]](https://github.com/apps/renovate) (#815)
-- ⬆️ Update microsoft/vscode-docker to v1.29.6 @[renovate[bot]](https://github.com/apps/renovate) (#816)
-- ⬆️ Update esphome to v2025.4.1 @[renovate[bot]](https://github.com/apps/renovate) (#817)
+- ⬆️ Update cloudflare/cloudflared to v2025.4.2 @[renovate[bot]](https://github.com/apps/renovate) (#818)
+- ⬆️ Update rclone/rclone to v1.69.2 @[renovate[bot]](https://github.com/apps/renovate) (#819)
+- ⬆️ Update pkief/vscode-material-icon-theme to v5.22.0 @[renovate[bot]](https://github.com/apps/renovate) (#820)
+- ⬆️ Update cdr/code-server to v4.99.4 @[renovate[bot]](https://github.com/apps/renovate) (#821)
+- ⬆️ Update mikefarah/yq to v4.45.2 @[renovate[bot]](https://github.com/apps/renovate) (#822)
