@@ -14,6 +14,8 @@ jobs:
   publish:
     name: Publish add-on update
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: 🔐 Load 1Password secrets
         uses: 1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0 # v2.0.0
