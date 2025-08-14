@@ -5,3 +5,7 @@ addons:
     repository: elcajon-dev/addon-code-server
     target: code-server
     image: ghcr.io/elcajon-dev/code-server/{arch}
+  newt:
+    repository: elcajon-dev/addon-newt
+    target: newt
+    image: ghcr.io/elcajon-dev/newt/{arch}
