@@ -39,6 +39,20 @@ Code Server experience integrated in the Home Assistant frontend.
 
 [:books: Advanced Code Server add-on documentation][addon-doc-code-server]
 
+### &#10003; [Newt][addon-newt]
+
+![Latest Version][newt-version-shield]
+![Reported Installations][newt-installations-shield-stable]
+![Supports armhf Architecture][newt-armhf-shield]
+![Supports armv7 Architecture][newt-armv7-shield]
+![Supports aarch64 Architecture][newt-aarch64-shield]
+![Supports amd64 Architecture][newt-amd64-shield]
+![Supports i386 Architecture][newt-i386-shield]
+
+Tunneling client to connect Home Assistant to Pangolin.
+
+[:books: Newt add-on documentation][addon-doc-newt]
+
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
@@ -54,6 +68,7 @@ based on the following:
 Got questions?
 
 - [Open an issue for the add-on: Advanced Code Server][code-server-issue]
+- [Open an issue for the add-on: Newt][newt-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -89,6 +104,16 @@ SOFTWARE.
 [code-server-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [code-server-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [code-server-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-newt]: https://github.com/elcajon-dev/addon-newt/tree/077678f
+[addon-doc-newt]: https://github.com/elcajon-dev/addon-newt/blob/077678f/README.md
+[newt-issue]: https://github.com/elcajon-dev/addon-newt/issues
+[newt-version-shield]: https://img.shields.io/badge/version-077678f-blue.svg
+[newt-installations-shield-stable]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fanalytics.home-assistant.io%2Faddons.json&query=%24%5B%22a03729f7_newt%22%5D.total&label=Reported%20Installations&link=https%3A%2F%2Fanalytics.home-assistant.io/add-ons
+[newt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[newt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[newt-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[newt-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[newt-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [issue]: https://github.com/elcajon-dev/repository-stable/issues
 [license-shield]: https://img.shields.io/github/license/elcajon-dev/repository-stable.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
