@@ -1,11 +1,13 @@
 ## What’s changed
-
-This is the first release. Expect some bugs but also new features coming soon.
-
 ## 🐛 Bug fixes
 
-- Fix Lint errors @elcajon (#3)
+- ⬆️ Remove not needed requirements @[renovate[bot]](https://github.com/apps/renovate) (#6)
+
+## 📚 Documentation
+
+- Update all texts and comments for grammar and spelling @elcajon (#5)
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update creyD/prettier_action action to v4.6 @[renovate[bot]](https://github.com/apps/renovate) (#1)
+- ⬆️ Update 1password/load-secrets-action action to v3 @[renovate[bot]](https://github.com/apps/renovate) (#4)
+- ⬆️ Update newt to v1.4.2 @[renovate[bot]](https://github.com/apps/renovate) (#7)
