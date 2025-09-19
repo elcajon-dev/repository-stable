@@ -1,9 +1,9 @@
 ## What’s changed
 ## ⬆️ Dependency updates
 
-- ⬆️ Update debian_13/mariadb-client to v1:11.8.3-0+deb13u1 @[renovate[bot]](https://github.com/apps/renovate) (#923)
-- ⬆️ Update debian_13/git to v1:2.47.3-0+deb13u1 @[renovate[bot]](https://github.com/apps/renovate) (#922)
-- ⬆️ Update home-assistant/cli to v4.41.0 @[renovate[bot]](https://github.com/apps/renovate) (#924)
-- ⬆️ Update pkief/vscode-material-icon-theme to v5.27.0 @[renovate[bot]](https://github.com/apps/renovate) (#925)
-- ⬆️ Update mikefarah/yq to v4.47.2 @[renovate[bot]](https://github.com/apps/renovate) (#926)
-- ⬆️ Update esphome to v2025.8.4 @[renovate[bot]](https://github.com/apps/renovate) (#927)
+- ⬆️ Update tailscale/tailscale to v1.88.1 @[renovate[bot]](https://github.com/apps/renovate) (#929)
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v8.1.0 @[renovate[bot]](https://github.com/apps/renovate) (#928)
+- ⬆️ Migrate renovate config @[renovate[bot]](https://github.com/apps/renovate) (#930)
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v8.1.1 @[renovate[bot]](https://github.com/apps/renovate) (#931)
+- ⬆️ Update cdr/code-server to v4.104.0 @[renovate[bot]](https://github.com/apps/renovate) (#932)
+- ⬆️ Update esphome to v2025.9.1 @[renovate[bot]](https://github.com/apps/renovate) (#933)
