@@ -1,9 +1,8 @@
 name: Advanced Code Server
-version: 2025.10.5
+version: 2025.11.0
 slug: code-server
 description: Code Server experience integrated in the Home Assistant frontend.
 url: https://github.com/elcajon-dev/addon-code-server
-codenotary: codenotary@elcajon.dev
 ingress: true
 ingress_port: 1337
 ingress_stream: true
